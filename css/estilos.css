@@ -1,0 +1,336 @@
+
+body {
+ padding-top: 80px; 
+}
+*{
+	margin: 0;
+
+
+}
+
+/*alertas de validacion*/
+
+
+#valvacio{
+
+width: 100%;
+height: -20%;
+
+
+}
+
+
+
+
+
+/* menu y esas cosas*/
+img
+{
+
+max-width: 100%;
+    height: auto;
+    width: auto/9; /* Bug de ie8 */
+
+}
+
+
+.menu_bar {
+	display:none;
+}
+
+
+
+.dropdown-menu{
+
+background:#379676;
+	color:#fff;
+	
+}
+
+#mostrar{
+
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 25%;
+	height: 50%;
+		/*border-top: 2px groove #000;
+	border-left: 2px groove #000;
+	border-right: 2px groove #000;
+	border-bottom: 2px groove #000;
+*/
+}
+
+#agarrarimagen{
+
+	position: relative;
+	top: -124px;
+	left: 10px;
+	width: 25%;
+	height: 50%;
+	opacity: 0;
+	
+	/*border-top: 2px groove #000;
+	border-left: 2px groove #000;
+	border-right: 2px groove #000;
+	border-bottom: 2px groove #000;*/
+	
+
+
+}
+
+input[name=file]
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+	border: groove #0C0;
+	
+}
+
+#regresar{
+	display: none;
+}
+
+#fimagen{
+	text-align: center;
+}
+
+
+
+#bus{
+width: 100%;
+height: 100%;
+border-bottom: 2px groove #fff;
+
+}
+
+#crearcondominio{
+width: 100%;
+height: 100%;
+border-bottom: 2px groove #fff;
+
+}
+
+
+#crearnoticia{
+
+width: 50%;
+height: 50%;
+border-bottom: 2px groove #fff;
+
+
+}
+
+#linia{
+
+	width: 100%;
+height: 100%;
+
+border-top: 2px groove #fff;
+
+}
+
+#noticias{
+
+	width: 100%;
+height: 100%;
+
+border-bottom: 2px groove #fff;
+text-align: center;
+
+}
+#noticiasR{
+
+	width: 100%;
+height: 100%;
+
+
+text-align:center;
+
+}
+#hednoticia{
+
+	width: 100%;
+height: 100%;
+
+border-bottom: 2px groove #fff;
+
+
+}
+#container{
+
+	
+border-left: 2px groove #fff;
+border-right: 2px groove #fff;
+
+
+
+}
+
+#modificar{
+
+width:50%;
+position: relative;
+top: 0px;
+right: -10px;
+
+
+
+
+}
+
+#eliminar{
+
+width: 50%;
+position: relative;
+top: -34px;
+right: -70px;
+
+
+}
+
+
+#btn{
+	width: 100%;
+	height: 100%;
+position: relative;
+top: 0px;
+left: 0px;
+border-bottom: 2px groove #fff;
+border-top: 2px groove #fff;
+
+}
+
+
+#mostrarusuario{
+
+
+
+	border-bottom: 2px groove #fff;
+
+}
+
+#btnusu{
+margin:3px;
+width: 100%;
+	height: -10%;
+	position: relative;
+	top: 5px;
+border-bottom: 2px groove #fff;
+
+
+}
+
+
+#eliminarusu{
+
+			width: 30%;
+			height: 30%;	
+	position: relative;
+	top: -64px;
+	right: -140px;
+
+
+
+}
+
+#modificarusu{
+
+width: 30%;
+height: 30%;
+position: relative;
+	top: 10px;
+	right: 50px;
+	
+
+
+}
+
+
+#Regresar{
+
+
+position: relative;
+	top: -118px;
+	left: -20px;
+	
+
+}
+
+
+
+#Regresarusuario{
+
+
+		position: relative;
+		top: 0px;
+		left: -100px;
+
+}
+
+
+#modificarusuario{
+
+
+position: relative;
+top: 0px;
+right: 200px;
+
+}
+
+
+#verfactura{
+
+position: relative;
+border-bottom: 2px groove #fff;
+
+}
+
+#btnforum{
+
+
+border-top: 2px groove #fff;
+
+
+}
+
+#crearforum{
+
+
+
+border-bottom:  2px groove #fff;
+
+}
+
+#mediaa{
+
+border-bottom: 3px groove #fff;
+
+width: 100%;
+}
+
+#media{
+border-top: 2px groove #fff;
+border-bottom: 2px groove #fff;
+width: 100%;
+}
+
+#mos_uf{
+
+}
+
+.claveinco{
+	margin-top: 20px;
+	color:white;
+	text-align: center;
+	font-size: 16px;
+}
+.warning{
+	color: #c63c3a;
+	text-align: center;
+}

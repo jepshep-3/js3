@@ -1,0 +1,416 @@
+body { 
+	padding-top: 0px;
+	 padding-bottom: 40px; 
+	 background-color: #292C32;
+	  font-family: 'JEPVirtual'; } 
+
+	  .form-signin { 
+	  	max-width: 330px; 
+	  	padding: 15px;
+	  	 margin: 0 auto; 
+	  	} 
+	  	.form-signin .form-signin-heading, .form-signin .checkbox {
+	  	 margin-bottom: 10px;
+	  	  } 
+
+	  	  .form-signin .checkbox {
+	  	   font-weight: normal; 
+	  	} 
+	  	.form-signin .form-control { 
+	  		position: relative;
+	 -webkit-box-sizing: border-box; 
+	 -moz-box-sizing: border-box; 
+	 box-sizing: border-box;
+	  padding: 10px;
+	   font-size: 16px; 
+	   height: auto; 
+	} 
+	.form-signin .form-control:focus {
+	 z-index: 2; } 
+
+	 .form-signin input[type="email"] { 	
+
+	 	margin-bottom: 
+	 	-1px; border-bottom-right-radius: 0; 
+	 	border-bottom-left-radius: 0; } 
+
+	 	.form-signin input[type="password"] { 
+	 		margin-bottom: 10px; 
+	 		border-top-left-radius: 0; 
+	 		border-top-right-radius: 0; 
+	 		background: #000; 
+	 		border-radius: 0px;
+	 		 border: 1px solid #A0BE37; 
+	 		 color: #a2a1a1 !important; } 
+
+	 		 .ui-growl { } .ui-growl-item { 
+
+	 		 	background: #ffffff !important; } 
+
+	 		 	.ui-dialog { 
+
+	 		 		background: transparent none repeat scroll 0 0 !important; 
+
+	 		 	} 
+
+	 		 	.ui-widget-overlay { 
+
+	 		 		background: #1f2226 none repeat scroll 0 0 !important; 
+	 		 		opacity: 0.8 !important; } 
+
+	 		 		.ui-password-info {
+	 		 		 margin-top: 4px; 
+	 		 		 color: white !important; }
+
+	 		 		  .ui-panelgrid { 
+	 		 		  	border-collapse: collapse !important;
+	 		 		  	 border: transparent !important; 
+	 		 		  	 border-style: none !important; } 
+
+	 		 		  	 .ui-panelgrid .ui-panelgrid-cell {
+	 		 		  	  border-style: none !important; }
+
+	 		 		  	   /*** ESTILOS (TIEMPO AIRE, INGRESAR NÃšMEROS FAVORITOS) ***/ 
+
+	 		 		  	 .divTitulo {
+	 		 		  	  height: 40px; 
+	 		 		  	  background-color: black !important;
+	 		 		  	  color: white !important; 
+	 		 		  	  text-align: center; 
+	 		 		  	  font-size: 8px; padding: 2px; }
+
+	 		 		  	  .divInterno { 
+	 		 		  	  align: center !important;
+	 		 		  	   background-color: #292C32; 
+	 		 		  	   color: white !important;
+	 		 		  	    text-align: center; 
+	 		 		  	    font-size: 11px; 
+	 		 		  	    padding: 2px; } 
+
+	 		 		  	      	  .bordeGris { 
+	 		 		  	      	  	border: 1px solid #ADADAD; } 
+
+	 		 		  	      	  	.dimControlw90h30 { 
+	 		 		  	      	  		width: 90%; 
+	 		 		  	      	  		height: 30px; } 
+
+	 		 		  	      	  		.dimControlw90h30 input { 
+
+	 		 		  	      	  			width: 90%;
+	 		 		  	      	  			 height: 30px; 
+	 		 		  	      	  			} 
+
+	 		 		  	      	  .controlBordeBlanco input { 
+	 		 		  	      	  align: center !important; 
+	 		 		  	      	  text-align: center !important; 
+	 		 		  	      	  border-radius: 0px; 
+	 		 		  	      	  border: 1px solid #ADADAD; 
+	 		 		  	      	  background-color: #292C32; 
+	 		 		  	      	  color: white; text-align: center; 
+	 		 		  	      	  width: 80%; 
+	 		 		  	      	  height: auto !important; } 
+
+	 		 		  	     .controlBordeBlanco { 
+	 		 		  	      	width: 90%; 
+	 		 		  	      	background: #292C32 none repeat scroll 0% 0%; 
+	 		 		  	      	border: 1px solid #858584; 
+	 		 		  	      	color: #A0BE37; 
+	 		 		  	      	margin: 0px; 
+	 		 		  	      	border-radius: 0px; } 
+
+	 		 		  	      	 .panel .ui-selectonemenu-list { 
+	 		 		  	      	  align: center !important; 
+	 		 		  	      	  border-radius: 0px; 
+	 		 		  	      	  border: 1px solid #ADADAD; 
+	 		 		  	      	  background-color: #292C32; 
+	 		 		  	      	  color: white; 
+	 		 		  	      	  text-align: center; } 
+	 		 		  	      	  					
+
+	 		 		  	      	  .aMayusculas { 
+	 		 		  	      	  text-transform: uppercase; } 
+
+	 		 		  	      	 /*** FORMA USADA DENTRO DE LA VENTANA DE DESBLOQUEO ***/ 
+	 		 		  	      	  				
+	 		 		  	      	  .formDesbloquear { 
+	 		 		  	      	  max-width: 500px; 
+	 		 		  	      	  padding: 15px; 
+	 		 		  	      	  margin: 0 auto; } 
+
+	 		 		/*** MENSAJES DE ERROR CÃ“DIGO OTP DE DESBLOQUEO ***/ 
+	 		 		  	.dialogos {	
+	 		 		  	  background-color: #e22e2e !important; 
+	 		 		  	  color: #000000 !important; 
+	 		 		  	  opacity: 0.85; } 
+
+	 		 		  	.dialogos .ui-dialog-titlebar-close { 
+	 		 		  	 position: absolute; 
+	 		 		  	 right: 0; 
+	 		 		  	 top: 0; 
+	 		 		  	 width: 20px; 
+	 		 		  	 margin-top: 10px; 
+	 		 		  	 margin-right: 10px; 
+	 		 		  	 padding: 1px; 
+	 		 		  	 height: 20px; 
+	 		 		  	 background-image: url(imge/close.png); 
+	 		 		  	 background-position: center; 
+	 		 		  	 background-repeat: no-repeat; }
+
+	 		 		  	  .dialogosInfo { 
+	 		 		  	      	  	
+	 		 		  	   background-color: #00CCFF !important;
+	 		 		  	   color: #000000 !important; 
+	 		 		  	   opacity: 0.85; } 
+
+	 		 		  	   .dialogosInfo .ui-dialog-titlebar-close { 
+
+	 		 		  	      position: absolute; 
+	 		 		  	      right: 0; 
+	 		 		  	      top: 0; 
+	 		 		  	      width: 20px; 
+	 		 		  	      margin-top: 10px; 
+	 		 		  	      margin-right: 10px; 
+	 		 		  	      padding: 1px; 
+	 		 		  	      height: 20px; 
+	 		 		  	      background-image: url(imge/close.png); 
+	 		 		  	      background-position: center; 
+	 		 		  	      background-repeat: no-repeat; } 
+
+	 		 		  	      	.ui-shadow { 
+	 		 		  	      	 box-shadow: 0 0 0 rgba(0, 0, 0, 0.8) !important; } 
+	 		 		  	      	/*** ESTILO BOTON DESBLOQUEAR USUARIO ***/ 
+	 		 		  	      	 .botonDesbloq { 
+
+	 		 		  	      	  color: #DF9B2D !important; 
+	 		 		  	      	  margin-left: auto !important; 
+	 		 		  	      	  margin-right: auto !important; 
+	 		 		  	      	  background-color: #000 !important; 
+	 		 		  	      	  border-top-color: #ADADAD !important; 
+	 		 		  	      	  border-right-color: #ADADAD !important; 
+	 		 		  	      	  border-bottom-color: #ADADAD !important; 
+	 		 		  	      	  border-left-color: #ADADAD !important; 
+	 		 		  	      	  border-image-source: none !important; 
+	 		 		  	      	  border-image-slice: 100% 100% 100% 100% !important; 
+	 		 		  	      	  border-image-width: 1 1 1 1 !important; 
+	 		 		  	      	  border-image-outset: 0 0 0 0 !important; 
+	 		 		  	      	  border-image-repeat: stretch stretch !important; 
+	 		 		  	      	  width: 400px !important; 
+	 		 		  	      	  margin-top: 4px !important; } 
+
+	 		 		  	      	.botonDesbloq:HOVER { 
+	 		 		  	     	color: #FFF !important; 
+	 		 		  	     	background-color: #000 !important; 
+	 		 		  	     	border-top-color: #FFF !important; 
+	 		 		  	     	border-right-color: #FFF !important; 
+	 		 		  	     	border-bottom-color: #FFF !important; 
+	 		 		  	     	border-left-color: #FFF !important; 
+	 		 		  	     	width: 400px !important; 
+	 		 		  	     	margin-top: 4px !important; } 
+	 		 		  	      	  										 			
+	 		 		  	      	.botonDesbloq:ACTIVE { 
+	 		 		  	      	 color: #DF9B2D !important; 
+	 		 		  	      	 margin-left: auto !important; 
+	 		 		  	      	 margin-right: auto !important; 
+	 		 		  	      	 background-color: #000 !important; 
+	 		 		  	      	 border-top-color: #ADADAD !important; 
+	 		 		  	      	 border-right-color: #ADADAD !important; 
+	 		 		  	      	 border-bottom-color: #ADADAD !important; 
+	 		 		  	      	 border-left-color: #ADADAD !important; 
+	 		 		  	      	 border-image-source: none !important; 
+	 		 		  	      	 border-image-slice: 100% 100% 100% 100% !important; 
+	 		 		  	      	 border-image-width: 1 1 1 1 !important; 
+	 		 		  	      	 border-image-outset: 0 0 0 0 !important; 
+	 		 		  	      	 border-image-repeat: stretch stretch !important; 
+	 		 		  	      	 width: 400px !important; margin-top: 4px !important; } 
+	 		 		  	      	 /*** ESTILO INPUTNUMBER RECARGAS Y TRANSFERENCIAS ***/ 
+	 		 		  	      	 .ingresoNumero input { 
+	 		 		  	      	 	width: 80% !important; 
+	 		 		  	      	 	color: #fff !important; 
+	 		 		  	      	 	text-align: center !important; 
+	 		 		  	      	 	font-size: 1.5em !important; 
+	 		 		  	      	 	width: auto; 
+	 		 		  	      	 	background-color: #666565 !important; 
+	 		 		  	      	 	background-image: none !important; 
+	 		 		  	      	 	background-repeat: repeat !important; 
+	 		 		  	      	 	background-attachment: scroll !important; 
+	 		 		  	      	 	background-position: 0px 0px !important; 
+	 		 		  	      	 	background-clip: border-box !important; 
+	 		 		  	      	 	background-origin: padding-box !important; 
+	 		 		  	      	 	background-size: auto auto !important; 
+	 		 		  	      	 	border-top-width: 1px !important; 
+	 		 		  	      	 	border-right-width: 1px !important; 
+	 		 		  	      	 	border-bottom-width: 1px !important; 
+	 		 		  	      	 	border-left-width: 1px !important; 
+	 		 		  	      	 	border-top-style: solid !important; 
+	 		 		  	      	 	border-right-style: solid !important; 
+	 		 		  	      	 	border-bottom-style: solid !important; 
+	 		 		  	      	 	border-left-style: solid !important; 
+	 		 		  	      	 	border-top-color: #A0BE37 !important; 
+	 		 		  	      	 	border-right-color: #A0BE37 !important; 
+	 		 		  	      	 	border-bottom-color: #A0BE37 !important; 
+	 		 		  	      	 	border-left-color: #A0BE37 !important; 
+	 		 		  	      	 	-moz-border-top-colors: none !important; 
+	 		 		  	      	 	-moz-border-right-colors: none !important; 
+	 		 		  	      	 	-moz-border-bottom-colors: none !important; 
+	 		 		  	      	 	-moz-border-left-colors: none !important; 
+	 		 		  	      	 	border-image-source: none !important; 
+	 		 		  	      	 	border-image-slice: 100% 100% 100% 100% !important; 
+	 		 		  	      	 	border-image-width: 1 1 1 1 !important; 
+	 		 		  	      	 	border-image-outset: 0 0 0 0 !important; 
+	 		 		  	      	 	border-image-repeat: stretch stretch !important; }   
+
+	 		 		  	      	 	.checkbox label, .radio label { 
+	 		 		  	      	 		padding-left: 0px !important; } 
+
+	 		 		  	      	 		.btn { padding: 0px 0px !important; } 
+
+	 		 		  	      	 		#amodal .modal-dialog{ 
+	 		 		  	      	 			width: 90%; } 
+
+	 		 		  	      	 			.terminos { /*background-color: #E0DBDB;*/ 
+	 		 		  	      	 				letter-spacing: 1px; 
+	 		 		  	      	 				font-size: 18px; 
+	 		 		  	      	 				text-align: justify;
+	 		 		  	      	 				 line-height: 1.42857143; 
+	 		 		  	      	 				 color: rgb(255, 255, 255); } 
+
+	 		 		  	      	 				 .modal-header { 
+	 		 		  	      	 				 	background-color: #FFF !important; } 
+	 		 		  	      	 				 	.modal-dialog h4 { 
+	 		 		  	      	 				 		text-align: center !important; } 
+	 		 		  	      	 				 		.modal-body { background-color: #292C32 !important; } 
+	 		 		  	      	 				 		.modal-footer { 
+	 		 		  	      	 				 			border-top: 1px solid #FFEAEA !important; 
+	 		 		  	      	 				 			background-color: #292C32 !important; } 
+	 		 		  	      	 				 			.modal-header { 
+	 		 		  	      	 				 background-color: #292C32 !important; } 
+
+	 		 		  	      	 				 .etiquetasInversiones { 
+	 		 		  	      	 				 	color: azure; 
+	 		 		  	      	 				 	text-align: left; } 
+	 		 		  	      	 				 	/*** ESTILO PARA COMPONENTE CARGANDO ***/ 
+	 		 		  	      	 				 	.loader { 
+	 		 		  	      	 				 		font-size: 20px; 
+	 		 		  	      	 				 		margin-top:45%; 
+	 		 		  	      	 				 		margin-left:45%; 
+	 		 		  	      	 				 		width: 1em; height: 1em; 
+	 		 		  	      	 				 		border-radius: 50%; 
+	 		 		  	      	 				 		position: relative; 
+	 		 		  	      	 				 		text-indent: -9999em; 
+	 		 		  	      	 				 		-webkit-animation: load4 1.3s infinite linear; 
+	 		 		  	      	 				 		animation: load4 1.3s infinite linear; }
+	 		 		  	      	 				 		 @-webkit-keyframes load4 { 0%, 100% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em 0.2em #A1BF37, 2em -2em 0 0em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 0em #A1BF37; } 12.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em 0em #A1BF37, 2em -2em 0 0.2em #A1BF37, 3em 0em 0 0em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 25% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 0em #A1BF37, 3em 0em 0 0.2em #A1BF37, 2em 2em 0 0em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 37.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 0em #A1BF37, 2em 2em 0 0.2em #A1BF37, 0em 3em 0 0em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 50% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 0em #A1BF37, 0em 3em 0 0.2em #A1BF37, -2em 2em 0 0em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 62.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 0em #A1BF37, -2em 2em 0 0.2em #A1BF37, -3em 0em 0 0em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 75% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 0em #A1BF37, -3em 0em 0 0.2em #A1BF37, -2em -2em 0 0em #A1BF37; } 87.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em 0em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 0em #A1BF37, -3em 0em 0 0em #A1BF37, -2em -2em 0 0.2em #A1BF37; } } 
+	 		 		  	      	 				 		 @keyframes load4 { 0%, 100% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em 0.2em #A1BF37, 2em -2em 0 0em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 0em #A1BF37; } 12.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em 0em #A1BF37, 2em -2em 0 0.2em #A1BF37, 3em 0em 0 0em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 25% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 0em #A1BF37, 3em 0em 0 0.2em #A1BF37, 2em 2em 0 0em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 37.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 0em #A1BF37, 2em 2em 0 0.2em #A1BF37, 0em 3em 0 0em #A1BF37, -2em 2em 0 -0.5em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 50% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 0em #A1BF37, 0em 3em 0 0.2em #A1BF37, -2em 2em 0 0em #A1BF37, -3em 0em 0 -0.5em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 62.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 0em #A1BF37, -2em 2em 0 0.2em #A1BF37, -3em 0em 0 0em #A1BF37, -2em -2em 0 -0.5em #A1BF37; } 75% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em -0.5em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 0em #A1BF37, -3em 0em 0 0.2em #A1BF37, -2em -2em 0 0em #A1BF37; } 87.5% { 
+	 		 		  	      	 				 		 box-shadow: 0em -3em 0em 0em #A1BF37, 2em -2em 0 -0.5em #A1BF37, 3em 0em 0 -0.5em #A1BF37, 2em 2em 0 -0.5em #A1BF37, 0em 3em 0 -0.5em #A1BF37, -2em 2em 0 0em #A1BF37, -3em 0em 0 0em #A1BF37, -2em -2em 0 0.2em #A1BF37; } } 
+
+	 		 		  	      	 				 		 /*** Transferencias Internas ***/ 
+
+	 		 		  	      	 				.ui-panelgrid td, .ui-panelgrid tr { 
+	 		 		  	      	 				 border-style: none !important; text-align: center; } 
+	 		 		  	      	 				 .JEPVirtual-interFinancieras-titularJep p { 
+	 		 		  	      	 				 color: #A0BE37; font-weight: bold; } 
+	 		 		  	      	 				 .JEPVirtual-interFinancieras-titularOtro p {
+	 		 		  	      	 				 color: #f57900; font-weight: bold; } 
+	 		 		  	      	 				 .JEPVirtual-interFinancieras-tipoCuentaJep p { 
+	 		 		  	      	 				 color: #000000; font-weight: bold; } 
+	 		 		  	      	 				 .JEPVirtual-interFinancieras-tipoCuentaOtro p { 
+	 		 		  	      	 				 color: #000000; font-weight: bold; } 
+	 		 		  	      	 				 .JEPVirtual-interFinancieras-instFinancieraJep p { 
+	 		 		  	      	 				 color: #000000; font-weight: normal; } 
+	 		 		  	      	 				 .JEPVirtual-interFinancieras-instFinancieraOtro p { 
+	 		 		  	      	 				 color: #000000; font-weight: normal; } 
+	 		 		  	      	 				 .JEPVirtual-interFinancieras-correo p { 
+	 		 		  	      	 				 color: #ffffff; 
+	 		 		  	      	 				 min-height: 5px; 
+	 		 		  	      	 				 font-weight: normal } 
+	 		 		  	      	 				 .JEPVirtual-interFinancierasSaldoMonto p { 
+	 		 		  	      	 				 color: #ffffff; 
+	 		 		  	      	 				 min-height: 5px; 
+	 		 		  	      	 				 font-weight: normal } 
+	 		 		  	      	 				 .JEPVirtual-transExternas-InputText { 
+	 		 		  	      	 				 	border: 1px solid #000000; 
+	 		 		  	      	 				 	font-size: 26px; 
+	 		 		  	      	 				 	font-family: Arial, Verdana; 
+	 		 		  	      	 				 	border-radius: 4px; 
+	 		 		  	      	 				 	-moz-border-radius: 4px; 
+	 		 		  	      	 				 	-webkit-border-radius: 4; 
+	 		 		  	      	 				 	-o-border-radius: 4px; 
+	 		 		  	      	 				 	background: #73d216; 
+	 		 		  	      	 				 	color: #ffffff; } 
+	 		 		  	      	 				 	.JEPVirtual-transExternas-InputTextArea { 
+	 		 		  	      	 				 		border: 1px solid #000000; 
+	 		 		  	      	 				 		font-size: 20px; 
+	 		 		  	      	 				 		font-family: Arial, Verdana; 
+	 		 		  	      	 				 		border-radius: 4px; 
+	 		 		  	      	 				 		-moz-border-radius: 4px; 
+	 		 		  	      	 				 		-webkit-border-radius: 4; 
+	 		 		  	      	 				 		-o-border-radius: 4px; 
+	 		 		  	      	 				 		background: #73d216; 
+	 		 		  	      	 				 		color: #ffffff; } 
+	 		 		  	      	 				 		.buttons input { 
+	 		 		  	      	 				 			margin: 5px; 
+	 		 		  	      	 				 			padding: 5px 5px 5px 20px; 
+	 		 		  	      	 				 			/* 20px makes room for your background image */ 
+	 		 		  	      	 				 			border: 1px solid #aaa; } 
+
+	 		 		  	      	 				 			.buttons .apply { 
+	 		 		  	      	 				 				background: #eee url(path/to/apply.png) no-repeat 0 50%; } 
+
+	 		 		  	      	 				 				.buttons .cross { 
+	 		 		  	      	 				 					background: #eee url(path/to/cross.png) no-repeat 0 50%; } 
+	 		 		  	      	 				 					.ui-grid-col-3 { width: 100% !important; } 
+
+	 		 		  	      	 				 					/*** override primefaces style ***/ 
+	 		 		  	      	 				 					/*.ui-message-info, .ui-message-error, 
+	 		 		  	      	 				 					.ui-message-warn, .ui-message-fatal { 
+	 		 		  	      	 				 					border: 0 !important; margin: 0 !important; 
+	 		 		  	      	 				 					padding: 0 !important; font-weight: bold; } 
+	 		 		  	      	 				 					.ui-messages-error, .ui-message-error { 
+	 		 		  	      	 				 					color: #D8000C; background-color: #555753 !important; }
+
+	 		 		  	      	 				 					*/ /***MARCO B*** Estilo para los combobox de primefaces***/ 
+
+	 		 		  	      	 				 					.menuCombo .ui-selectonemenu-label {
+	 		 		  	      	 				 					 width: 90%; 
+	 		 		  	      	 				 					 background: #292C32 none repeat scroll 0% 0%; 
+	 		 		  	      	 				 					 border: 1px solid #858584 !important; 
+	 		 		  	      	 				 					 color: #A0BE37; 
+	 		 		  	      	 				 					 border-radius: 0px; 
+	 		 		  	      	 				 					 text-align: center; } 
+
+	 		 		  	      	 				 					 .panelCombo .ui-selectonemenu-list { 
+	 		 		  	      	 				 					 	width: 90%; 
+	 		 		  	      	 				 					 	background: #292C32 none repeat scroll 0% 0%; 
+	 		 		  	      	 				 					 	border: 1px solid #858584 !important; 
+	 		 		  	      	 				 					 	color: #A0BE37; 
+	 		 		  	      	 				 					 	border-radius: 0px; 
+	 		 		  	      	 				 					 	text-align: center; } 
+	 		 		  	      	 				 					 	/***Juan J. Lucero *** Boton de logeo***/ 
+
+	 		 		  	      	 				 					 	.ui-button-text-only .ui-button-text { 
+	 		 		  	      	 				 					 		padding: 0px !important; } 
+	 		 		  	      	 				 					 		/***Boton de RecuperarContrasenia ***/ 
+	 		 		  	      	 				 					 		.ui-button-text-icon-left .ui-button-text { 
+	 		 		  	      	 				 					 			padding: 0px !important; } 
+	 		 		  	      	 				 					 	.form-signin input[type="inputInicio"]{ 
+
+	 		 		  	      	 				 					 		background: #000; 
+	 		 		  	      	 				 					 		border-radius: 0px; 
+	 		 		  	      	 				 					 		border: 1px solid #A0BE37; 
+	 		 		  	      	 				 					 		color: #a2a1a1 !important; } 
+
