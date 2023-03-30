@@ -1,0 +1,5186 @@
+@font-face {
+	font-family: JEPVirtual;
+	src: url(/recursosJep/fonts/light/RobotoCondensed-Light.eot);
+	src: url(/recursosJep/fonts/light/RobotoCondensed-Light.eot?#iefix) format('embedded-opentype'), url(/recursosJep/fonts/light/RobotoCondensed-Light.woff) format('woff'), url(/recursosJep/fonts/light/RobotoCondensed-Light.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal
+}
+
+.dropdown-submenu {
+	position: relative
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block
+}
+
+.dropdown-submenu>a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #ccc;
+	margin-top: 5px;
+	margin-right: -10px
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color: #fff
+}
+
+.dropdown-submenu.pull-left {
+	float: none
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px
+}
+
+.icono-AhorrosJEP {
+	color: #88e294
+}
+
+.icono-FondoJEP {
+	color: #2aafb5
+}
+
+.icono-InversionesJEP {
+	color: #7575d8
+}
+
+.icono-InteliJEP {
+	color: #aad154
+}
+
+.icono-SuperJEP {
+	color: #9f5dce
+}
+
+.icono-JEPito {
+	color: #7fc1ea
+}
+
+.JEPVirtual-login-idiomas a {
+	color: #fff
+}
+
+.JEPVirtual-login-cabecera-sombra {
+	background: url(/recursosJep/images/JEPVirtual-cabecera-sombra.png) top center no-repeat;
+	height: 19px;
+	position: relative
+}
+
+.container p {
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: .72px
+}
+
+.form-signin input[type=email],
+.input-password {
+	background: #000;
+	border-radius: 0;
+	border: 1px solid #a0be37;
+	color: #a2a1a1!important
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+	border-radius: 25px;
+	background: #000;
+	color: #df9a2d;
+	border: 1px solid #858584;
+	width: 200px;
+	margin: 0 auto
+}
+
+.btn-primary:hover {
+	background: #000;
+	border: 1px solid #fff
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.dropdown-toggle.btn-primary {
+	background: #000;
+	border: 1px solid #fff
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+	background: #000;
+	border: 1px solid #fff
+}
+
+.JEPVirtual-login-sombra1 {
+	background: url(/recursosJep/images/JEPVirtual-sombra1.png) top center no-repeat;
+	height: 20px
+}
+
+.JEPVirtual-login-sombra2 {
+	background: url(/recursosJep/images/JEPVirtual-cabecera-sombra.png) top center no-repeat;
+	height: 19px
+}
+
+.JEPVirtual-login-usuariocontrasena {
+	min-height: 45px;
+	padding-top: 10px;
+	text-align: center
+}
+
+.JEPVirtual-login-usuariocontrasena a {
+	color: #a0be37
+}
+
+.JEPVirtual-login-usuariocontrasena .usuario {
+	font-size: 17px
+}
+
+.JEPVirtual-login-usuariocontrasena .contrasena {
+	font-size: 17px
+}
+
+.JEPVirtual-login-mensaje {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 15px;
+	min-height: 160px;
+	display: table;
+	margin-bottom: 15px
+}
+
+.JEPVirtual-login-mensaje h3 {
+	color: #a1bf37;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700
+}
+
+.JEPVirtual-login-mensaje-icono {
+	background: url(/recursosJep/images/JEPVirtual-login-iconomensaje.svg) no-repeat;
+	background-size: 78px 96px;
+	height: 100px;
+	position: absolute;
+	width: 90px;
+	z-index: 3
+}
+
+.JEPVirtual-login-mensaje-texto {
+	background: #1d2126;
+	color: #fff;
+	float: right;
+	min-height: 100px;
+	border: 1px solid #868585;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	z-index: 0;
+	float: left;
+	margin-left: 65px;
+	text-align: justify;
+	margin-bottom: 20px
+}
+
+.JEPVirtual-login-mensaje-icono-EMPRESAS {
+	background: url(/recursosJep/images/JEPVirtual-login-iconomensaje-EMPRESAS.svg) no-repeat;
+	background-size: 55px;
+	height: 150px;
+	position: absolute;
+	width: 90px;
+	z-index: 3
+}
+
+.JEPVirtual-login-mensaje-texto-EMPRESAS {
+	background: #1d2126;
+	color: #fff;
+	float: right;
+	min-height: 100px;
+	border: 1px solid #868585;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	z-index: 0;
+	float: left;
+	margin-left: 65px;
+	text-align: justify;
+	margin-bottom: 20px
+}
+
+.fa-firefox::before {
+	font-size: 30px;
+	color: #6a696e;
+	margin-right: 20px
+}
+
+.fa-internet-explorer::before {
+	font-size: 30px;
+	color: #6a696e;
+	margin-right: 20px
+}
+
+.fa-chrome::before {
+	font-size: 30px;
+	color: #6a696e;
+	margin-right: 20px
+}
+
+.fa-safari::before {
+	font-size: 30px;
+	color: #6a696e
+}
+
+.JEPVirtual-login-navegadores {
+	margin-top: 20px;
+	text-align: center
+}
+
+.JEPVirtual-login-img {
+	text-align: center;
+	margin-top: -19px;
+	margin-bottom: 50px
+}
+
+.JEPVirtual-loginotp-frame {
+	color: #fff
+}
+
+.mensaje-contraseÃ±a {
+	color: #70a73b;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center
+}
+
+.JEPVirtual-loginotp-frame h4 {
+	color: #a1bf37;
+	font-size: 15px;
+	text-align: center
+}
+
+.JEPVirtual-loginotp-frame input {
+	background: #000;
+	width: 250px;
+	margin: 0 auto;
+	border: 1px solid #a1bf37;
+	color: #b0b0b0
+}
+
+.JPEVirtual-loginotp-teclado-tecla {
+	background: #171818;
+	border: 1px solid #868585;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	font-size: 25px;
+	padding-top: 3px;
+	padding-left: 0;
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 10px
+}
+
+.JPEVirtual-loginotp-teclado-tecla-ultima {
+	background: #171818;
+	border: 1px solid #868585;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	font-size: 25px;
+	padding-top: 3px;
+	padding-left: 0;
+	float: left;
+	margin-bottom: 10px
+}
+
+.JPEVirtual-loginotp-teclado-tecla-capa-centrada {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center
+}
+
+.JPEVirtual-loginotp-teclado-tecla-centrada {
+	background: #171818;
+	border: 1px solid #868585;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	font-size: 25px;
+	padding-top: 7px;
+	margin-bottom: 15px;
+	display: inherit
+}
+
+.JEPVirtual-loginotp-frame .btn-group-lg>.btn,
+.btn-lg {
+	color: #df9b2d;
+	height: 30px;
+	padding: 0;
+	width: 120px;
+	margin: 0 auto
+}
+
+.JEPVirtual-loginotp-teclado {
+	width: 160px;
+	margin: 0 auto;
+	min-height: 230px
+}
+
+.JEPVirtual-loginotp-mensaje {
+	width: 250px;
+	background: #1d2126;
+	border-radius: 5px;
+	border: 1px solid #868585;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: justify;
+	margin-bottom: 20px;
+	color: #b0b0b0
+}
+
+.JEPVirtual-loginotp-mensaje h3 {
+	color: #a1bf37;
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: 0
+}
+
+#cbox1 {
+	width: 20px
+}
+
+.JEPVirtual-loginotp-sombra1 {
+	background: url(/recursosJep/images/JEPVirtual-otp-sombra1.png) bottom center no-repeat;
+	height: 12px
+}
+
+.JEPVirtual-loginotp-sombra1-enlace {
+	color: #dd992e!important
+}
+
+.JEPVirtual-loginotp-botones {
+	display: inline-block;
+	margin-top: 0!important
+}
+
+.cancelar-olvido-usuario {
+	background: #5b5a61;
+	border: 1px solid #292c32;
+	color: #292c32;
+	font-weight: 700
+}
+
+.cancelar {
+	color: #5b5a61;
+	background: #292c32;
+	border: 1px solid #5b5a61;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 700
+}
+
+.cancelar-otp {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 10px;
+	width: 100px
+}
+
+.borrar {
+	color: #868585;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 700;
+	margin-left: 0
+}
+
+.acceder {
+	color: #df9b2d;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 700
+}
+
+.aceptar {
+	color: #ffa300;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 700
+}
+
+.width-botones {
+	width: 170px;
+	margin-bottom: 10px
+}
+
+.solicitar-codigo {
+	color: #a1bf37;
+	text-align: center
+}
+
+.solicitar-codigo a {
+	color: #a1bf37;
+	font-size: 15px
+}
+
+.otp-separador {
+	height: 20px
+}
+
+.otp-separador-2 {
+	height: 20px
+}
+
+#creacion-usuario h1 {
+	background: #c5c2c5 url(/recursosJep/images/h1.jpg) top center no-repeat;
+	height: 61px;
+	color: #fff;
+	text-align: center;
+	font-family: JEPVirtual;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 15px;
+	margin-top: -19px;
+	margin-bottom: 0
+}
+
+#creacion-usuario .contenidos {
+	padding: 20px;
+	text-align: justify;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: justify
+}
+
+#creacion-usuario .contenidos .fechas .ui-inputfield {
+	width: 300px;
+	background: url(/recursosJep/images/icono-calendario.png) no-repeat right!important;
+	border: 1px solid #999;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	text-align: center;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	margin-top: 0!important
+}
+
+.ui-datepicker {
+	width: 300px;
+	background: #848387;
+	padding: 10px;
+	text-align: center
+}
+
+.ui-datepicker .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-prev span {
+	color: #ffa300;
+	font-size: 20px
+}
+
+.ui-datepicker-title {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700
+}
+
+.ui-datepicker-year {
+	color: #000;
+	font-size: 15px;
+	font-weight: 400!important
+}
+
+.ui-datepicker-month {
+	color: #000;
+	font-size: 15px;
+	font-weight: 400!important
+}
+
+.ui-datepicker td span {
+	display: block!important;
+	padding: .2em!important;
+	text-align: center!important;
+	text-decoration: none!important
+}
+
+.ui-datepicker td a {
+	font-size: 14px;
+	color: #fff;
+	text-align: center!important
+}
+
+.ui-datepicker td .ui-state-hover {
+	background: #ffa300;
+	border-radius: 50%
+}
+
+.ui-datepicker td .ui-state-active {
+	background: #ffa300;
+	border-radius: 50%
+}
+
+#creacion-usuario .error-sistema {
+	color: #ff5050;
+	font-size: 28px;
+	font-weight: 700
+}
+
+#creacion-usuario .error-sistema-mensaje {
+	color: #7a7a7a;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center
+}
+
+#creacion-usuario .separador-opt {
+	height: 200px
+}
+
+#creacion-usuario .btn-block {
+	display: unset
+}
+
+#creacion-usuario .footer {
+	background: #292c32;
+	min-height: 100px;
+	padding-top: 20px;
+	color: #fff;
+	padding-bottom: 20px
+}
+
+#creacion-usuario p {
+	color: #fff
+}
+
+#creacion-usuario hr {
+	border-top: 1px solid #b0b0b0
+}
+
+#creacion-usuario .p-informacion {
+	width: 300px;
+	margin: 0 auto;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #868585
+}
+
+#creacion-usuario .p-informacion .icono {
+	float: left;
+	margin-right: 10px
+}
+
+#creacion-usuario .p-informacion .icono-2 {
+	float: left;
+	font-size: 13px;
+	text-align: justify
+}
+
+#creacion-usuario .sombra {
+	background: url(/recursosJep/images/nuevousuario-sombra.png) top center no-repeat;
+	height: 18px
+}
+
+#creacion-usuario .fa-info-circle {
+	color: #9baea6;
+	font-size: 16px
+}
+
+#creacion-usuario .p-informacion2 {
+	min-height: 100px
+}
+
+#creacion-usuario .usuario-contrasena {
+	border: 0
+}
+
+#creacion-usuario .form-control {
+	border-radius: 0;
+	display: inherit
+}
+
+#creacion-usuario .botones {
+	margin-top: -40px;
+	margin-bottom: 20px
+}
+
+#creacion-usuario .fa-circle:before {
+	color: #c20b19;
+	font-size: 15px
+}
+
+#creacion-usuario .fa-check-circle-o:before {
+	color: #a1bf37;
+	font-size: 20px;
+	margin-left: 10px
+}
+
+#creacion-usuario .input-error {
+	background: #f5e1d6
+}
+
+#creacion-usuario .input-ok {
+	background: #e9efd0
+}
+
+#creacion-usuario .fa-exclamation-triangle {
+	color: #ffec00
+}
+
+#creacion-usuario .span {
+	color: #a1bf37;
+	font-weight: 700
+}
+
+#creacion-usuario .container-1 {
+	background: #5b5a61
+}
+
+.olvido-usuario-footer {
+	background: #292c32;
+	min-height: 0
+}
+
+#creacion-usuario .JPEVirtual-loginotp-teclado-tecla {
+	padding-left: 0
+}
+
+#creacion-usuario .JPEVirtual-loginotp-teclado-tecla-ultima {
+	padding-left: 0
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+	background: #000
+}
+
+.modal-dialog {
+	background: #000;
+	padding: 20px
+}
+
+.modal-dialog h4 {
+	color: #a0bf39
+}
+
+.JEPVirtual-login-video-tutorial {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 15px;
+	min-height: 160px;
+	display: table;
+	margin-bottom: 15px
+}
+
+.modal-dialog .dashboard-modal {
+	text-align: center
+}
+
+.modal-dialog .dashboard-modal label {
+	color: #70a73b;
+	text-align: center
+}
+
+.modal-dialog .dashboard-modal input {
+	border: 1px solid #70a73b;
+	background: #1d1d1d;
+	width: 80%;
+	padding: 5px;
+	color: #adacb2
+}
+
+.modal-dialog .dashboard-modal .inputFecha input {
+	margin-bottom: 20px;
+	width: 100%;
+	background: url(/recursosJep/images/icono-calendario.png) no-repeat right!important;
+	border: 1px solid #999;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	text-align: center;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	margin-top: 0!important
+}
+
+.modal-dialog .dashboard-modal .inputNumber input {
+	margin-bottom: 0;
+	background: #000;
+	padding: 5px;
+	color: #adacb2;
+	border: 1px solid #adacb2!important;
+	width: 83%!important
+}
+
+.modal-dialog .dashboard-modal .input-buscar {
+	background: url(/recursosJep/images/modal-search.svg) no-repeat right;
+	background-size: 5px 5px:
+}
+
+.modal-dialog .dashboard-modal .error {
+	font-size: 14px;
+	color: #dd5151;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center
+}
+
+.modal-dialog .dashboard-modal .imagen-perfil {
+	border-radius: 50%;
+	width: 130px;
+	height: 130px
+}
+
+.modal-dialog .dashboard-modal input[type=radio] {
+	display: none
+}
+
+.modal-dialog .dashboard-modal input[type=radio]+label {
+	background: url(/recursosJep/images/dashboard-check-off.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #aaa9af;
+	margin-left: 5px;
+	margin-top: 10px
+}
+
+.modal-dialog .dashboard-modal input[type=radio]:checked+label {
+	background: url(/recursosJep/images/dashboard-check-on.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #aaa9af;
+	margin-left: 5px;
+	margin-top: 10px
+}
+
+.modal-dialog .dashboard-modal .aceptar {
+	height: 25px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 0;
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+	border-radius: 25px;
+	background: #000;
+	border: 1px solid #858584;
+	width: auto;
+	font-weight: 700;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffa300
+}
+
+.modal-dialog .dashboard-modal .aceptar:hover {
+	border: 1px solid #fff
+}
+
+.modal-dialog .dashboard-modal .cancelar {
+	border-radius: 25px;
+	background: #000;
+	border: 1px solid #858584;
+	width: auto;
+	color: #858584;
+	font-weight: 700;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	height: 25px
+}
+
+.modal-dialog .dashboard-modal .cancelar:hover {
+	border: 1px solid #fff
+}
+
+.modal-dialog .dashboard-modal .input-codigo {
+	background: #fff;
+	color: #000;
+	border: 1px solid #000
+}
+
+.modal-dialog .dashboard-modal p {
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.modal-dialog .dashboard-modal hr {
+	height: 1px;
+	background: #848387;
+	margin-top: 0;
+	margin-bottom: 10px
+}
+
+.modal-dialog .dashboard-modal .solicitar-codigo {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0
+}
+
+.modal-dialog .dashboard-modal .solicitar-codigo a {
+	color: #ffa300
+}
+
+.modal-dialog .dashboard-modal .contrasena-debil {
+	color: #ff5050;
+	margin: 0 auto;
+	width: 75%;
+	text-align: left;
+	margin-bottom: 10px
+}
+
+.modal-dialog .dashboard-modal .contrasena-buena {
+	color: #f9de58;
+	margin: 0 auto;
+	width: 75%;
+	text-align: left;
+	margin-bottom: 10px
+}
+
+.modal-dialog .dashboard-modal .contrasena-fuerte {
+	color: #c4ff80;
+	margin: 0 auto;
+	width: 75%;
+	text-align: left;
+	margin-bottom: 10px
+}
+
+#myModal-personificar-beneficiario select {
+	background: #000 url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	width: 75%;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+#myModal-personificar-beneficiario i {
+	color: #adacb2
+}
+
+#myModal-personificar-beneficiario .texto {
+	width: 75%;
+	background: #191b1e;
+	border: 1px solid #adacb2;
+	color: #adacb2
+}
+
+#myModal-perfil h3 {
+	color: #adacb2;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+#myModal-usuario h3 {
+	color: #adacb2;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+#myModal-usuario select {
+	background: #000 url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	width: 75%;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+#myModal-usuario i {
+	color: #adacb2
+}
+
+#myModal-usuario .texto {
+	width: 75%;
+	background: #191b1e;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin-bottom: 20px
+}
+
+#myModal-usuario label {
+	text-align: left!important
+}
+
+#myModal-usuario .error {
+	color: #dd5151!important;
+	margin: 0 auto;
+	text-align: left;
+	width: 75%;
+	margin-bottom: 10px
+}
+
+#myModal-usuario .matenimiento-info {
+	color: #d7d8dc;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: 400;
+	width: 75%
+}
+
+#myModal-usuario .icono-mantenimiento {
+	float: left;
+	margin-right: 10px
+}
+
+#myModal-usuario h1 {
+	color: #c1c2c8;
+	font-size: 20px
+}
+
+#myModal-contrasena h3 {
+	color: #adacb2;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+#myModal-contrasena select {
+	background: #000 url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	width: 75%;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+#myModal-contrasena i {
+	color: #adacb2
+}
+
+#myModal-contrasena .texto {
+	width: 75%;
+	background: #191b1e;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin-bottom: 20px
+}
+
+#myModal-contrasena label {
+	text-align: left!important
+}
+
+#myModal-contrasena .error {
+	color: #dd5151!important;
+	margin: 0 auto;
+	text-align: left;
+	width: 75%;
+	margin-bottom: 10px
+}
+
+#myModal-contrasena .matenimiento-info {
+	color: #d7d8dc;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: 400;
+	width: 75%
+}
+
+#myModal-contrasena .icono-mantenimiento {
+	float: left;
+	margin-right: 10px
+}
+
+#myModal-contrasena h1 {
+	color: #c1c2c8;
+	font-size: 20px
+}
+
+#myModal-codigo h3 {
+	color: #adacb2;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+#myModal-codigo select {
+	background: #000 url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	width: 75%;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+#myModal-codigo i {
+	color: #adacb2;
+	text-align: justify!important;
+	font-size: 12px
+}
+
+#myModal-codigo .texto {
+	width: 75%;
+	background: #191b1e;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin-bottom: 20px
+}
+
+#myModal-codigo label {
+	text-align: left!important
+}
+
+#myModal-codigo .error {
+	color: #dd5151!important;
+	margin: 0 auto;
+	text-align: left;
+	width: 75%;
+	margin-bottom: 10px
+}
+
+#myModal-codigo .matenimiento-info {
+	color: #d7d8dc;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: 400;
+	width: 75%
+}
+
+#myModal-codigo .icono-mantenimiento {
+	float: left;
+	margin-right: 10px
+}
+
+#myModal-codigo h1 {
+	color: #c1c2c8;
+	font-size: 20px
+}
+
+#myModal-softoken h3 {
+	color: #adacb2;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+#myModal-softoken select {
+	background: #000 url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	width: 75%;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+#myModal-softoken i {
+	color: #adacb2;
+	text-align: justify!important;
+	font-size: 12px
+}
+
+#myModal-softoken .texto {
+	width: 75%;
+	background: #191b1e;
+	border: 1px solid #adacb2;
+	color: #adacb2;
+	margin-bottom: 20px
+}
+
+#myModal-softoken label {
+	text-align: left!important
+}
+
+#myModal-softoken .error {
+	color: #dd5151!important;
+	margin: 0 auto;
+	text-align: left;
+	width: 75%;
+	margin-bottom: 10px
+}
+
+#myModal-softoken .matenimiento-info {
+	color: #d7d8dc;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: 400;
+	width: 75%
+}
+
+#myModal-softoken .icono-mantenimiento {
+	float: left;
+	margin-right: 10px
+}
+
+#myModal-softoken h1 {
+	color: #c1c2c8;
+	font-size: 20px
+}
+
+.dashboard-radio {
+	text-align: center
+}
+
+.dashboard-radio input[type=radio] {
+	display: none
+}
+
+.dashboard-radio input[type=radio]+label {
+	background: url(/recursosJep/images/dashboard-check-off.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #d7d8dc!important;
+	margin-left: 5px;
+	margin-top: 10px;
+	width: 60px!important;
+	margin-bottom: 10px!important
+}
+
+.dashboard-radio input[type=radio]:checked+label {
+	background: url(/recursosJep/images/dashboard-check-on.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #aaa9af;
+	margin-left: 5px;
+	margin-top: 10px
+}
+
+.cerrar-sesion-flecha-izquierda {
+	float: left;
+	width: 20px
+}
+
+.cerrar-sesion-flecha-derecha {
+	float: right;
+	width: 20px
+}
+
+.cerrar-sesion-flecha-logo {
+	flat: left;
+	text-align: center;
+	position: absolute;
+	width: 100%
+}
+
+.cerrar-sesion-header {
+	background: url(/recursosJep/images/JEP-background-marca.jpg) repeat-x;
+	height: 85px;
+	padding: 20px
+}
+
+.cerrar-sesion h2 {
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.cerrar-sesion h4 {
+	font-size: 20px;
+	color: #7a7a7a;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.cerrar-sesion-mensaje {
+	width: 100%;
+	text-align: center;
+	color: #70a73b;
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	display: block
+}
+
+.cerrar-sesion-sombra1 {
+	background: url(/recursosJep/images/cerrar-sesion-sombra1.png) no-repeat top center;
+	height: 23px;
+	background-size: 100%
+}
+
+.cerrar-sesion-sombra2 {
+	background: url(/recursosJep/images/cerrar-sesion-sombra2.png) no-repeat top center;
+	height: 23px;
+	background-size: 100%
+}
+
+#cerrar-sesion-iconos .col-md-4 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px
+}
+
+#cerrar-sesion-iconos .col-md-4 a {
+	color: #de992d;
+	font-size: 17px
+}
+
+#cerrar-sesion-iconos .fa-apple {
+	color: #de992d;
+	font-size: 20px;
+	margin-right: 20px
+}
+
+#cerrar-sesion-iconos .fa-android {
+	color: #de992d;
+	font-size: 20px
+}
+
+#JEP-dashboard .fa-user {
+	color: #666;
+	font-size: 30px;
+	margin-right: 10px
+}
+
+#JEP-dashboard .dashboard-usuario {
+	color: #fff;
+	vertical-align: middle
+}
+
+#JEP-dashboard .dashboard-usuario .foto {
+	border-radius: 50%;
+	width: 43px;
+	height: 43px;
+	margin-right: 5px
+}
+
+#JEP-dashboard .dashboard-usuario .btn-primary {
+	background: 0 0;
+	border-color: #212120;
+	padding-top: 9px;
+	padding-right: 30px;
+	padding-left: 30px
+}
+
+#JEP-dashboard .dashboard-usuario .fa-bars {
+	color: #ffa300;
+	font-size: 20px
+}
+
+#JEP-dashboard .dashboard-usuario .fa-power-off {
+	color: #ffa300;
+	font-size: 20px;
+	padding-top: 9px
+}
+
+#JEP-dashboard .dashboard-usuario .collapse.in {
+	position: absolute;
+	right: 20px
+}
+
+#JEP-dashboard .dashboard-usuario .usuario-opciones {
+	background: #000;
+	color: #fff;
+	padding: 20px
+}
+
+#JEP-dashboard .dashboard-usuario .usuario-opciones a {
+	color: #fff
+}
+
+#JEP-dashboard .dashboard-usuario .items {
+	float: left
+}
+
+#JEP-dashboard .dashboard-usuario .dropdown-menu {
+	right: 0;
+	background: #000
+}
+
+#JEP-dashboard .dashboard-usuario .dropdown-menu a {
+	color: #fff!important;
+	font-size: 12px
+}
+
+#JEP-dashboard .dashboard-usuario .dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+	background: #de992d
+}
+
+#JEP-dashboard .box h4 {
+	background: #171818;
+	color: #fff;
+	height: 40px;
+	font-weight: 700;
+	border-left: 3px solid #df9a2d;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 10px;
+	margin-bottom: 0
+}
+
+#JEP-dashboard .box .content {
+	background: #292c32;
+	border: 1px solid #858584;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px
+}
+
+#JEP-dashboard .box .content .capa-input {
+	text-align: center;
+	text-align: -moz-center;
+	text-align: -webkit-center;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#JEP-dashboard .dashboard-usuario .herramientas a {
+	color: #ffa300
+}
+
+#JEP-dashboard .box .input-busqueda {
+	background: #202123;
+	border: 1px solid #999;
+	color: #aaa9af;
+	width: 90%;
+	height: 30px;
+	border-radius: 0;
+	text-align: left;
+	margin-top: 0;
+	padding-left: 10px;
+	margin: 0 auto
+}
+
+#JEP-dashboard .box .input-busqueda input[type=text] {
+	border: 0!important;
+	height: 27px!important;
+	margin-top: 0
+}
+
+#JEP-dashboard .box .input-busqueda .boton-busqueda {
+	background: url(/recursosJep/images/JEP-icono-busqueda-input.png) no-repeat;
+	height: 20px;
+	width: 15px;
+	border: 0;
+	position: absolute
+}
+
+#JEP-dashboard .box .content select {
+	width: 90%;
+	background: #292c32 url(/recursosJep/images/select.svg) no-repeat right;
+	background-size: 17px 15px;
+	border: 1px solid #858584;
+	color: #aaa9af;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-top: 10px
+}
+
+#JEP-dashboard .box .content .radio {
+	height: 40px;
+	color: #b0b0af;
+	margin-top: 0;
+	margin-bottom: 15px
+}
+
+#JEP-dashboard .box .content input[type=radio] {
+	display: none
+}
+
+#JEP-dashboard .box i {
+	color: #d7d8dc;
+	font-size: 12px;
+	text-align: left;
+	letter-spacing: .8px
+}
+
+#JEP-dashboard .box .content .label1 {
+	color: #b0b0af;
+	margin-top: 10px;
+	font-weight: 700
+}
+
+#JEP-dashboard .box .content .label2 {
+	color: #fff;
+	margin-top: 10px;
+	font-weight: 700
+}
+
+#JEP-dashboard .box .content .form-control {
+	display: initial
+}
+
+#JEP-dashboard .box .content input {
+	background: #202123;
+	border: 1px solid #999;
+	color: #aaa9af;
+	width: 90%;
+	height: 30px;
+	border-radius: 0;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 10px
+}
+
+#JEP-dashboard .box .content .output {
+	background: #292c32
+}
+
+#JEP-dashboard .box .content .capa-botones {
+	margin-top: 20px
+}
+
+#JEP-dashboard .box .content .aceptar {
+	border-radius: 25px;
+	background: #000;
+	border: 1px solid #858584;
+	width: 100px;
+	font-weight: 700;
+	height: 25px
+}
+
+#JEP-dashboard .box .content .aceptar:hover {
+	background: #000;
+	border: 1px solid #fff
+}
+
+#JEP-dashboard .box .content .cancelar {
+	border-radius: 25px;
+	background: #000;
+	border: 1px solid #858584;
+	width: 100px;
+	color: #858584;
+	font-weight: 700;
+	height: 25px
+}
+
+#JEP-dashboard .box .content .cancelar:hover {
+	background: #000;
+	border: 1px solid #fff;
+	height: 25px
+}
+
+#JEP-dashboard .info {
+	font-size: 14px;
+	font-weight: 700;
+	color: #c1c1c1;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#JEP-dashboard .error {
+	font-size: 14px;
+	color: #dd5151;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center
+}
+
+#JEP-dashboard .correcto {
+	font-size: 14px;
+	color: #aad35b;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center
+}
+
+#JEP-dashboard .dashboard h1 {
+	background: #000;
+	border-left: 3px solid #70a73b;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 11px;
+	margin-top: 10px;
+	text-align: left
+}
+
+#JEP-dashboard .dashboard .impresion-comprobante {
+	background: 0 0!important
+}
+
+#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header {
+	background: #277a4a;
+	min-height: 65px;
+	padding-bottom: 10px
+}
+
+#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .foto {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px
+}
+
+#JEP-dashboard .dashboard .impresion-comprobante .texto-general {
+	color: #d7d8dc
+}
+
+#JEP-dashboard .dashboard .impresion-comprobante hr {
+	border-top: 2px solid #aad35b;
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+#JEP-dashboard .dashboard .impresion-comprobante td {
+	border-bottom: 1px solid #868589
+}
+
+#JEP-dashboard .dashboard .impresion-comprobante .texto-celda {
+	color: #d7d8dc
+}
+
+#JEP-dashboard .dashboard .label-estado-cuenta {
+	height: auto;
+	text-align: center
+}
+
+#JEP-dashboard .dashboard .JEP-tabs li {
+	margin: 0;
+	height: 45px;
+	background: #292c32 url(/recursosJep/images/tabs.png) no-repeat right
+}
+
+#JEP-dashboard .dashboard .JEP-tabs a {
+	color: #adacb2;
+	text-decoration: none
+}
+
+#JEP-dashboard .dashboard .nav-tabs>li>a {
+	border-radius: 0!important;
+	margin-right: 0;
+	border: none;
+	padding-top: 13px
+}
+
+#JEP-dashboard .dashboard .nav-tabs {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #5b5b61
+}
+
+#JEP-dashboard .box .transferencia-h4 {
+	background: #70a73b url(/recursosJep/images/transferencia-h4.png) no-repeat left top;
+	border-left: none;
+	text-align: center;
+	letter-spacing: .8px;
+	margin-top: 0
+}
+
+#JEP-dashboard .box .consultas-h4 {
+	background: #70a73b url(/recursosJep/images/consultas-h4.png) no-repeat left top;
+	border-left: none;
+	text-align: center;
+	letter-spacing: .8px;
+	margin-top: 0
+}
+
+#JEP-dashboard .box .pagos-h4 {
+	background: #70a73b url(/recursosJep/images/pagos-h4.png) no-repeat left top;
+	border-left: none;
+	text-align: center;
+	letter-spacing: .8px;
+	margin-top: 0
+}
+
+#JEP-dashboard .box .favoritos-h4 {
+	background: #70a73b url(/recursosJep/images/favoritos-h4.png) no-repeat left top;
+	border-left: none;
+	text-align: center;
+	letter-spacing: .8px
+}
+
+#JEP-dashboard .box .transferencia-tipo {
+	background: #292c32;
+	border-left: none;
+	text-align: center;
+	color: #fff;
+	height: 40px;
+	border-left: 3px solid #70a73b;
+	padding-top: 7px;
+	font-weight: 700;
+	letter-spacing: .8px;
+	border-bottom: 1px solid #5b5b61;
+	font-size: 16px
+}
+
+#JEP-dashboard .box .transferencia-content {
+	border: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center
+}
+
+#JEP-dashboard .box .transferencia-recientes {
+	background: #000;
+	min-height: auto
+}
+
+#JEP-dashboard .box .transferencia-recientes label {
+	text-align: center;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #81a446
+}
+
+#JEP-dashboard .box .transferencia-recientes .marcas {
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding-bottom: 20px
+}
+
+#JEP-dashboard .box .transferencia-content .foto {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#JEP-dashboard .box .transferencia-title-agregar-beneficiarios {
+	background: #292c32;
+	border-left: none;
+	text-align: center;
+	color: #fff;
+	height: 40px;
+	padding-top: 9px;
+	letter-spacing: .8px;
+	border-top: 1px solid #5b5b61;
+	border-bottom: 1px solid #5b5b61;
+	margin-top: -5px;
+	letter-spacing: .8px
+}
+
+#JEP-dashboard .box .fa-plus-circle {
+	font-size: 18px;
+	margin-right: 10px
+}
+
+#JEP-dashboard .box .transferencia-select {
+	margin-top: 10px
+}
+
+#JEP-dashboard .box .radio-transferencia {
+	width: 87%;
+	text-align: center
+}
+
+#JEP-dashboard .box .radio-transferencia input[type=radio]+label {
+	background: url(/recursosJep/images/dashboard-check-off.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #aaa9af;
+	margin-left: 5px;
+	margin-top: 10px
+}
+
+#JEP-dashboard .box .radio-transferencia input[type=radio]:checked+label {
+	background: url(/recursosJep/images/dashboard-check-on.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #aaa9af;
+	margin-left: 5px;
+	margin-top: 10px
+}
+
+#JEP-dashboard .box .transferencia-tipo-externa {
+	border-top: 1px solid #5d5d5d
+}
+
+#JEP-dashboard .box a {
+	color: #fff
+}
+
+#JEP-dashboard .box .radio-transferencia-express {
+	height: 40px
+}
+
+#JEP-dashboard .box .radio-transferencia-express input[type=radio]+label {
+	background: url(/recursosJep/images/dashboard-check-off.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #aaa9af;
+	margin-top: 10px;
+	margin-right: 10px
+}
+
+#JEP-dashboard .box .radio-transferencia-express input[type=radio]:checked+label {
+	background: url(/recursosJep/images/dashboard-check-on.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #aaa9af;
+	margin-top: 10px;
+	margin-right: 10px
+}
+
+#JEP-dashboard .dashboard .pc .graficas {
+	text-align: center;
+	left: 0;
+	right: 0
+}
+
+#JEP-dashboard .dashboard .pc .graficas a {
+	color: #fff;
+	text-decoration: none
+}
+
+#JEP-dashboard .dashboard .pc .graficas a:hover {
+	color: #d4d5d8
+}
+
+#JEP-dashboard .dashboard .pc .graficas .ahorros {
+	text-align: center;
+	color: #a1bf37;
+	font-weight: 700;
+	font-size: 20px
+}
+
+#JEP-dashboard .dashboard .pc .graficas .creditos {
+	text-align: center;
+	color: #df9b2d;
+	font-weight: 700;
+	font-size: 20px
+}
+
+#JEP-dashboard .dashboard .pc .graficas table {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 90%;
+	margin-bottom: 20px
+}
+
+#JEP-dashboard .dashboard .pc .graficas tr {
+	border-bottom: 1px solid #868585;
+	height: 40px
+}
+
+#JEP-dashboard .dashboard .pc .graficas .cuenta {
+	text-align: left;
+	color: #fff
+}
+
+#JEP-dashboard .dashboard .pc .graficas .cuenta-saldo {
+	text-align: right;
+	color: #fff
+}
+
+#JEP-dashboard .dashboard .pc .graficas .icono-AhorrosJEP {
+	color: #79b48a
+}
+
+#JEP-dashboard .dashboard .pc .graficas .icono-FondoJEP {
+	color: #0099a9
+}
+
+#JEP-dashboard .dashboard .pc .graficas .icono-InversionesJEP {
+	color: #6d6bab
+}
+
+#JEP-dashboard .dashboard .pc .graficas .icono-InteliJEP {
+	color: #afc645
+}
+
+#JEP-dashboard .dashboard .pc .graficas .icono-CrediJEP {
+	color: #e6ae18
+}
+
+#JEP-dashboard .dashboard .pc .graficas .icono-CrediPYMES {
+	color: #d2711b
+}
+
+#JEP-dashboard .dashboard .pc .graficas .icono-CreditoDEUNA {
+	color: #c20b19
+}
+
+#JEP-dashboard .dashboard .pc .graficas .mensaje {
+	text-align: justify;
+	color: #fff;
+	font-size: 12px
+}
+
+#JEP-dashboard .dashboard .pc .graficas .mensaje span {
+	color: #a1bf37;
+	font-weight: 700
+}
+
+#JEP-dashboard .footer {
+	background: #717076;
+	color: #fff;
+	letter-spacing: 2px;
+	min-height: 80px
+}
+
+#JEP-dashboard .dashboard {
+	color: #fff;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .dashboard table {
+	width: 100%
+}
+
+#JEP-dashboard .dashboard .tabla-titulos {
+	border-top: 2px solid #aad35b;
+	background: #292c32;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+#JEP-dashboard .dashboard .tabla-informacion-texto {
+	text-align: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: 1px solid #858584;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	letter-spacing: .8px
+}
+
+#JEP-dashboard .dashboard .tabla-informacion-numero {
+	text-align: right;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	letter-spacing: .8px
+}
+
+#JEP-dashboard .dashboard .tabla-totales {
+	background: #727177;
+	border: 1px solid #727177
+}
+
+#JEP-dashboard .dashboard .tabla-totales-label {
+	background: #70a73b;
+	border: 1px solid #70a73b;
+	color: #fff;
+	text-align: center
+}
+
+#JEP-dashboard .dashboard .tabla-totales-valores {
+	background: #70a73b;
+	border: 1px solid #70a73b;
+	color: #fff;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 5px
+}
+
+#JEP-dashboard .dashboard a {
+	color: #fff;
+	text-decoration: underline
+}
+
+#JEP-dashboard .dashboard a:hover {
+	color: #d4d5d8;
+	text-decoration: underline
+}
+
+#JEP-dashboard .dashboard .nota {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #c1c2c8;
+	font-size: 13px;
+	font-style: italic;
+	text-align: justify
+}
+
+#JEP-dashboard .dashboard .nota span {
+	color: #aad35b
+}
+
+#JEP-dashboard .dashboard .separador {
+	background: url(/recursosJep/images/dashboard-sombra.png) no-repeat top center;
+	width: 100%;
+	height: 10px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	background-size: 100%
+}
+
+#JEP-dashboard .dashboard .consulta-saldos .cuenta-AJ {
+	background: #88e294
+}
+
+#JEP-dashboard h3 {
+	color: #70a73b;
+	font-size: 18px;
+	font-weight: 700
+}
+
+#JEP-dashboard hr {
+	border-top: 1px solid #848483
+}
+
+#JEP-dashboard .date {
+	width: 90%;
+	background: #69686e url(/recursosJep/images/icono-calendario.png) no-repeat right;
+	border: 1px solid #999;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	text-align: center;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-right: 10px
+}
+
+#JEP-dashboard .texto-lectura {
+	width: 75%;
+	background: #5b5b61;
+	border: 1px solid #6a6c6d;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .texto-lectura-valores {
+	width: 75%;
+	background: #5b5b61;
+	border: 1px solid #6a6c6d;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 25px;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .texto {
+	width: 75%;
+	background: #202123;
+	border: 1px solid #999;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .mantenimiento-textos {
+	color: #d7d8dc
+}
+
+#JEP-dashboard .matenimiento-error {
+	color: #dd5151;
+	margin: 0 auto;
+	text-align: left
+}
+
+#JEP-dashboard .matenimiento-info {
+	color: #d7d8dc;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: 400
+}
+
+#JEP-dashboard .matenimiento-info .icono-mantenimiento {
+	float: left;
+	margin-right: 10px
+}
+
+#JEP-dashboard .matenimiento-info .info-mantenimiento {
+	float: left
+}
+
+#JEP-dashboard .matenimiento-info .li-mantenimiento {
+	float: none;
+	display: inline-block;
+	padding-left: 20px
+}
+
+#JEP-dashboard .matenimiento-info .li-mantenimiento li {
+	background: url(/recursosJep/images/li-mantenimientos.png) no-repeat left;
+	list-style-type: none;
+	padding-left: 15px
+}
+
+#JEP-dashboard .matenimiento-info .li-mantenimiento ul {
+	padding-left: 10px!important
+}
+
+#JEP-dashboard .dashboard label {
+	color: #70a73b;
+	text-align: left;
+	margin-bottom: 0
+}
+
+#JEP-dashboard .matenimiento-info span {
+	color: #fff
+}
+
+.manteniminto-dashboard-radio input[type=radio] {
+	display: none
+}
+
+.manteniminto-dashboard-radio {
+	text-align: center
+}
+
+.manteniminto-dashboard-radio input[type=radio] {
+	display: none
+}
+
+.manteniminto-dashboard-radio input[type=radio]+label {
+	background: url(/recursosJep/images/dashboard-check-off.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-top: 10px;
+	width: 390px
+}
+
+.manteniminto-dashboard-radio input[type=radio]:checked+label {
+	background: url(/recursosJep/images/dashboard-check-on.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 14px;
+	color: #aaa9af;
+	margin-left: 5px;
+	margin-top: 10px
+}
+
+.manteniminto-dashboard-radio select {
+	background: #69686e url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	background: #5b5b61;
+	border: 1px solid #999;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+.manteniminto-dashboard-radio label {
+	color: #aad35b!important;
+	text-align: left;
+	margin-bottom: 0
+}
+
+#JEP-dashboard .textarea {
+	width: 75%;
+	background: #454549;
+	border: 1px solid #999;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: auto;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .texto-valores {
+	width: 75%;
+	background: #454549;
+	border: 1px solid #999;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 25px;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .notificacion {
+	color: #aad35b;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle
+}
+
+#JEP-dashboard .notificacion-error {
+	color: #ff5050;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle
+}
+
+.table-responsive {
+	border: 0;
+	border-bottom: 30px;
+	display: inline-block
+}
+
+#JEP-dashboard .dashboard .icono-busqueda {
+	text-align: left
+}
+
+#JEP-dashboard .dashboard .icono-busqueda a {
+	text-decoration: none
+}
+
+#JEP-dashboard .dashboard .icono-busqueda .fa-search {
+	background: #292c32;
+	padding: 3px;
+	font-size: 20px;
+	color: #5b5b61
+}
+
+#JEP-dashboard .dashboard .icono-busqueda .fa-cog {
+	padding: 3px;
+	font-size: 25px;
+	color: #292c32
+}
+
+#JEP-dashboard .dashboard .icono-busqueda-2 {
+	text-align: right
+}
+
+#JEP-dashboard .dashboard .icono-busqueda-2 a {
+	text-decoration: none
+}
+
+#JEP-dashboard .dashboard .icono-busqueda-2 .fa-cog {
+	color: #292c32;
+	font-size: 25px
+}
+
+#JEP-dashboard .dashboard .persona-transferencia {
+	text-align: center;
+	margin-bottom: 20px
+}
+
+#JEP-dashboard .dashboard .persona-transferencia .imagen {
+	border-radius: 50%;
+	width: 130px;
+	height: 130px
+}
+
+#JEP-dashboard .dashboard .persona-transferencia .fa-cog {
+	color: #292c32;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+#JEP-dashboard .dashboard .persona-transferencia .fa-search {
+	background: #292c32;
+	padding: 3px;
+	font-size: 20px;
+	color: #5b5b61;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+#JEP-dashboard .dashboard .persona-transferencia .nombres-apellidos {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+	font-size: 15px;
+	color: #d5d6da
+}
+
+#JEP-dashboard .dashboard .persona-transferencia .datos-generales {
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	color: #adacb2
+}
+
+#JEP-dashboard .dashboard .cancelar {
+	border-radius: 25px;
+	background: #000;
+	border: 1px solid #858584;
+	width: auto;
+	color: #858584;
+	font-weight: 700;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 25px
+}
+
+#JEP-dashboard .dashboard .aceptar {
+	border-radius: 25px;
+	background: #000;
+	border: 1px solid #858584;
+	width: auto;
+	font-weight: 700;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 25px
+}
+
+#JEP-dashboard .dashboard .notificacion .fa-check-circle {
+	font-size: 25px
+}
+
+#JEP-dashboard .dashboard .botones-width {
+	width: 210px
+}
+
+#JEP-dashboard .dashboard .aceptar:hover {
+	border: 1px solid #fff
+}
+
+#JEP-dashboard .dashboard .cancelar:hover {
+	border: 1px solid #fff
+}
+
+#JEP-dashboard .dashboard .transferencia-externa-tarifa {
+	color: #c3c3c3;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: .8px;
+	margin-bottom: 20px
+}
+
+.borrar {
+	color: #868585;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 700;
+	margin-left: 0
+}
+
+.acceder {
+	color: #df9b2d;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 700
+}
+
+.consultas-h1 {
+	background: #000;
+	border-left: 3px solid #70a73b;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 11px;
+	margin-top: 10px;
+	letter-spacing: .8px;
+	margin-bottom: 0!important
+}
+
+.consultas-contenedor {
+	background: 0 0!important
+}
+
+.consultas-label {
+	color: #aad35b;
+	width: 88%;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 0
+}
+
+.consultas-select {
+	margin-top: 0!important
+}
+
+.consultas-input {
+	margin-top: 0!important
+}
+
+1 .consultas-tabla-valores-textos {
+	text-align: left!important
+}
+
+.consulta-boton {
+	margin-top: 10px!important;
+	margin-bottom: 10px
+}
+
+.consulta-date {
+	width: 90%;
+	background: url(/recursosJep/images/icono-calendario.png) no-repeat right!important;
+	border: 1px solid #999;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	text-align: center;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	margin-top: 0!important
+}
+
+.consultas-varias .transferencia-select {
+	margin-top: 0!important
+}
+
+.consulta-radio {
+	width: 100%!important
+}
+
+.consulta-paginacion {
+	text-align: center;
+	min-height: 20px;
+	margin: 20px
+}
+
+.consulta-paginacion .numeros {
+	width: 30px;
+	height: 30px;
+	background: #000;
+	color: #de992d;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 50%;
+	padding-top: 3px;
+	font-size: 16px;
+	border: 1px solid #000;
+	display: inline-block;
+	margin-bottom: 10px
+}
+
+.consulta-paginacion .numeros a {
+	text-decoration: none!important;
+	color: #de992d!important
+}
+
+.consulta-paginacion .numeros:hover {
+	border: 1px solid #de992d
+}
+
+.consulta-paginacion .active {
+	width: 30px;
+	height: 30px;
+	background: #000;
+	color: #de992d;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 50%;
+	padding-top: 3px;
+	font-size: 16px;
+	border: 1px solid #de992d;
+	display: inline-block;
+	margin-bottom: 10px
+}
+
+.consulta-paginacion .active a {
+	color: #cb973a!important
+}
+
+.consulta-paginacion .registros {
+	width: 30px;
+	height: 30px;
+	background: #de992d;
+	color: #000;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 50%;
+	padding-top: 3px;
+	font-size: 16px;
+	border: 1px solid #de992d;
+	display: inline-block;
+	margin-bottom: 10px
+}
+
+.disable {
+	background: #717075!important;
+	border: 1px solid #717075!important;
+	color: #3f3f3f!important
+}
+
+.consulta-paginacion .registros a {
+	color: #000!important
+}
+
+#JEP-dashboard .dashboard .botones-accion-tabla {
+	display: inline-block;
+	margin-right: 10px
+}
+
+#JEP-dashboard .dashboard .textos-impresion-comprobantes span {
+	color: #d7d8dc
+}
+
+.date {
+	width: 90%;
+	background: #69686e url(/recursosJep/images/icono-calendario.png) no-repeat right;
+	border: 1px solid #999;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	text-align: center;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-right: 10px
+}
+
+#JEP-dashboard .navbar-default {
+	background: #292c32;
+	border: 0
+}
+
+#JEP-dashboard .navbar-default .navbar-nav>li>a {
+	color: #fff;
+	letter-spacing: .72px;
+	padding-left: 4px;
+	padding-right: 4px
+}
+
+#JEP-dashboard .navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	background: #70a73b
+}
+
+#JEP-dashboard .navbar-default .info-login {
+	color: #fff;
+	font-size: 11px;
+	vertical-align: middle;
+	margin-right: 5px;
+	padding-top: 10px;
+	padding-left: 10px
+}
+
+#JEP-dashboard .navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+	background: #000;
+	text-decoration: underline
+}
+
+#JEP-dashboard .dropdown-menu {
+	background: #000
+}
+
+#JEP-dashboard .dropdown-menu>li>a {
+	color: #fff
+}
+
+#JEP-dashboard .nav>li {
+	margin-left: 9px;
+	margin-right: 9px
+}
+
+.nuevo-producto {
+	position: absolute;
+	margin-right: 0;
+	right: calc(100% - 50%);
+	margin-top: 2px;
+	border-radius: 4px;
+	right: calc(100% - 66%);
+	width: 67px;
+	height: 17px
+}
+
+.icn-ayuda {
+	width: 15px;
+	vertical-align: middle
+}
+
+#JEP-dashboard .navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border: 0
+}
+
+#JEP-dashboard .regresar {
+	margin-bottom: 20px;
+	text-align: center
+}
+
+#JEP-dashboard .regresar a {
+	text-decoration: none
+}
+
+#JEP-dashboard .dashboard .contenedor select {
+	background: #47474a url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	width: 75%;
+	background: #5b5b61;
+	border: 1px solid #999;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .dashboard select {
+	background: #47474a url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	background: #5b5b61;
+	border: 1px solid #999;
+	color: #d7d8dc;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	margin-bottom: 20px;
+	letter-spacing: .72px
+}
+
+#JEP-dashboard .bloque1 input[type=radio] {
+	display: none
+}
+
+#JEP-dashboard .bloque1 select {
+	width: 90%;
+	background: #69686e url(/recursosJep/images/select.svg) no-repeat right;
+	background-size: 17px 15px;
+	border: 1px solid #999;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	height: 30px;
+	text-align: center;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 20px
+}
+
+#JEP-dashboard .bloque1-transferencias label {
+	color: #aad35b;
+	width: 75%;
+	text-align: left;
+	margin-bottom: 0
+}
+
+#JEP-dashboard .bloque1-transferencias i {
+	color: #d5d6da;
+	font-size: 12px;
+	letter-spacing: .99px
+}
+
+.agregar-favoritos {
+	color: #cb973a;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.agregar-favoritos a {
+	color: #cb973a!important
+}
+
+.agregar-favoritos .fa-plus-circle {
+	color: #cb973a!important;
+	font-size: 12px
+}
+
+.box .busqueda {
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px
+}
+
+.mensaje-tabla {
+	color: #dd5151;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.imprimir-todo-fila {
+	border: 0;
+	background: #717075
+}
+
+.imprimir-todo-celda {
+	background: #5b5b61!important;
+	border: 0!important;
+	padding: 5px;
+	text-align: center
+}
+
+.servicios-consulta .fa-cog {
+	color: #cb973a!important;
+	font-size: 20px!important;
+	padding-top: 5px
+}
+
+#JEP-dashboard .bloque2 label {
+	color: #aad35b;
+	width: 75%;
+	text-align: left;
+	margin-bottom: 0
+}
+
+#JEP-dashboard .bloque1 input[type=radio]+label {
+	background: url(/recursosJep/images/dashboard-check-off.svg) no-repeat;
+	background-size: 56px 27px;
+	width: 80px;
+	height: 40px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 45px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #afafb1
+}
+
+#JEP-dashboard .bloque1 input[type=radio]:checked+label {
+	background: url(/recursosJep/images/dashboard-check-on.svg) no-repeat;
+	background-size: 56px 27px;
+	width: 80px;
+	height: 40px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 45px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #fff
+}
+
+#JEP-dashboard .bloque2 .option {
+	height: 50px
+}
+
+#JEP-dashboard .boton-accion {
+	background: #000;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #de992d;
+	border: 0;
+	font-weight: 700;
+	border: 1px solid #000
+}
+
+#JEP-dashboard .boton-accion:hover {
+	border: 1px solid #fff
+}
+
+#JEP-dashboard .totales label {
+	color: #70a73b;
+	display: block;
+	font-weight: 700
+}
+
+#JEP-dashboard .fa-print {
+	color: #afafb1;
+	font-size: 30px;
+	margin-bottom: 5px
+}
+
+#JEP-dashboard .fa-file-excel-o {
+	color: #afafb1;
+	font-size: 30px;
+	margin-bottom: 5px
+}
+
+#JEP-dashboard .fa-file-pdf-o {
+	color: #afafb1;
+	font-size: 30px;
+	margin-bottom: 5px
+}
+
+#JEP-dashboard .capa-botones-acciones-tabla {
+	text-align: center
+}
+
+#JEP-dashboard .box .capa-checkbox {
+	width: 100%;
+	text-align: center
+}
+
+#JEP-dashboard .box .capa-checkbox a {
+	color: #d7d8dc;
+	font-size: 13px
+}
+
+#JEP-dashboard .box .capa-checkbox input[type=checkbox] {
+	text-align: center;
+	width: auto!important;
+	height: auto!important;
+	margin-right: 10px!important;
+	background: 0 0!important;
+	border: 0!important;
+	margin-right: 2px!important
+}
+
+#JEP-dashboard .box .capa-checkbox input[type=checkbox]+label {
+	color: #d7d8dc!important;
+	font-style: italic;
+	margin-top: 20px
+}
+
+#JEP-dashboard .boton-regresar {
+	background: #ffa300;
+	color: #5b5b61;
+	min-width: 100px;
+	height: 30px;
+	border-radius: 40px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 700;
+	padding-right: 10px;
+	border: 0;
+	font-weight: 700;
+	vertical-align: middle;
+	border: 1px solid #de992d
+}
+
+#JEP-dashboard .boton-regresar:hover {
+	border: 1px solid #fff
+}
+
+.enlace-modal {
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+.enlace-modal a {
+	color: #ffa300!important;
+	font-size: 16px;
+	text-decoration: none!important
+}
+
+.enlace-modal a:hover {
+	color: #de992d!important
+}
+
+.express {
+	background: #afafb1!important;
+	color: #292c32!important;
+	border-left: 0!important;
+	font-weight: 700!important
+}
+
+.ui-growl-item {
+	background: url(/recursosJep/images/growl-back.png) repeat!important;
+	width: 300px!important;
+	height: 80px!important;
+	border-radius: 10px!important;
+	top: 0!important;
+	right: 0!important;
+	z-index: 10!important;
+	position: fixed!important;
+	margin-right: 20px!important;
+	margin-top: 20px!important;
+	padding-top: 0!important;
+	padding-left: 0!important;
+	padding-right: 0!important;
+	padding-bottom: 0!important
+}
+
+.ui-growl-item .icon-ok {
+	background: url(/recursosJep/images/growl-ok.svg) no-repeat;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+.ui-growl-item .icon-error {
+	background: url(/recursosJep/images/growl-error.svg) no-repeat;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+.ui-growl-item .icon-espera {
+	background: url(/recursosJep/images/growl-espera.svg) no-repeat;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+.ui-growl-item .mensaje {
+	float: left
+}
+
+.ui-growl-item .close {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px
+}
+
+.ui-growl-item span {
+	font-size: 18px;
+	color: #454444!important;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 18px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	padding-right: 0;
+	margin-left: 60px;
+	width: 80%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column
+}
+
+.ui-growl-item p {
+	font-size: 14px;
+	color: #454444!important;
+	text-transform: none
+}
+
+.JEP-Empresas-frame-login {
+	text-align: center
+}
+
+.JEP-Empresas-OTP-tecla {
+	padding-left: 0
+}
+
+.JEP-Empresas-OTP-tecla-borrar {
+	color: #a0bf38;
+	font-weight: 600
+}
+
+.JEP-Empresas-OTP-tecla-cancelar {
+	color: #818181;
+	font-weight: 600
+}
+
+.JEP-Empresas-OTP-tecla-acceder {
+	color: #ca973b;
+	font-weight: 600
+}
+
+.JEP-Empresas-Container {
+	text-align: center
+}
+
+.contenedor-Empresas {
+	padding-top: 20px
+}
+
+#JEP-dashboard .input-busqueda {
+	color: #aaa9af;
+	border-radius: 0;
+	text-align: left;
+	margin-top: 0;
+	padding-left: 10px;
+	margin: 0 auto;
+	width: 250px
+}
+
+#JEP-dashboard .input-busqueda input[type=text] {
+	margin-top: 0;
+	background: #202123;
+	border: 1px solid #81a446;
+	color: #aaa9af;
+	height: 30px;
+	border-radius: 0;
+	text-align: left;
+	margin-top: 0;
+	padding-left: 10px;
+	margin: 0 auto;
+	border-right: 0;
+	width: 200px
+}
+
+#JEP-dashboard .input-busqueda .boton-busqueda {
+	background: #202123 url(/recursosJep/images/JEP-icono-busqueda-input.png) no-repeat;
+	height: 30px;
+	width: 15px;
+	border: 0;
+	position: absolute;
+	border-top: 1px solid #81a446;
+	border-right: 1px solid #81a446;
+	border-bottom: 1px solid #81a446;
+	padding-right: 15px
+}
+
+#JEP-dashboard .columnas {
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	min-height: 70px
+}
+
+#JEP-dashboard .columnas-input {
+	width: 60%!important
+}
+
+.consulta-date-Empresas {
+	margin-bottom: 20px;
+	background: #68686d url(/recursosJep/images/JEP-icono-cal-Empresas.png) no-repeat top right!important
+}
+
+#JEP-dashboard input[type=radio] {
+	display: none
+}
+
+#JEP-dashboard .radio-transferencia-express {
+	height: 40px
+}
+
+#JEP-dashboard .radio-transferencia-express input[type=radio]+label {
+	background: url(/recursosJep/images/dashboard-check-off.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #aaa9af;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: auto
+}
+
+#JEP-dashboard .radio-transferencia-express input[type=radio]:checked+label {
+	background: url(/recursosJep/images/dashboard-check-on.png) no-repeat;
+	height: 30px;
+	display: inline-block;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #aaa9af;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: auto
+}
+
+.columnas-table {
+	min-height: 30px!important
+}
+
+.select-table {
+	height: 25px!important;
+	margin-bottom: 5px!important;
+	width: 95%!important
+}
+
+.columnas-inputs {
+	-moz-appearance: none;
+	background: #454549 none repeat scroll 0 0;
+	border: 1px solid #999;
+	border-radius: 0;
+	color: #d7d8dc;
+	height: 30px;
+	letter-spacing: .72px;
+	margin: auto auto 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 120px
+}
+
+.columnas-select-table {
+	width: 150px!important
+}
+
+.columnas-select-table-2 {
+	width: 150px!important;
+	height: 30px!important;
+	margin-bottom: 0!important
+}
+
+.label-empresas {
+	padding-left: 20px
+}
+
+.label-empresas-busqueda {
+	font-size: 14px
+}
+
+.select-1columna {
+	width: 100%!important
+}
+
+.input-e .consultas-contenedor .datos-socio {
+	padding-left: 53px
+}
+
+mpresas-busqueda {
+	width: 300px;
+	margin: 0 auto;
+	text-align: left
+}
+
+#custom-search-input {
+	padding: 3px;
+	border: solid 1px #81a446;
+	width: 160px;
+	background: #1d1d1d;
+	height: 30px
+}
+
+#custom-search-input input {
+	background: inherit;
+	width: 130px;
+	color: #aaa9af;
+	border: 0;
+	font-size: 15px;
+	height: 20px
+}
+
+#custom-search-input button {
+	border: 0;
+	color: #666;
+	width: 20px;
+	height: 10px;
+	background: inherit;
+	vertical-align: initial
+}
+
+.width-input-read-only {
+	background: #5b5b61 url(/recursosJep/images/select-dashboard.svg) no-repeat right!important;
+	background-size: 30px 15px!important;
+	border: 1px solid #6a6c6d!important
+}
+
+.mensaje-correcto {
+	color: #81a446;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+.mensaje-advertencia {
+	color: #dd5151;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+.botones-accion-xls {
+	text-align: center;
+	height: 70px;
+	float: left;
+	width: 50%
+}
+
+.botones-accion-pdf {
+	text-align: center;
+	height: 70px;
+	float: left;
+	width: 50%
+}
+
+.dashboard-modal table {
+	text-align: center;
+	margin: 0 auto
+}
+
+.dashboard-modal .table-titulo {
+	color: #fff;
+	background: #81a446;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 1px solid #81a446
+}
+
+.pro-pago-label-ind {
+	text-align: right;
+	width: auto!important
+}
+
+.pro-pago-label-fecha {
+	text-align: left;
+	color: #aaa9af;
+	font-size: 13px
+}
+
+.pro-pago-txt-number {
+	background: #47474a;
+	color: #aaa9af;
+	border: 1px solid #aaa9af;
+	padding: 3px;
+	width: 50px
+}
+
+.pro-pago-del-hasta {
+	width: 75%;
+	text-align: left
+}
+
+.pro-pago-boton {
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+.pro-pago-cancelar {
+	background: #000 none repeat scroll 0 0;
+	border: 1px solid #858584;
+	border-radius: 25px;
+	color: #858584;
+	font-weight: 700;
+	height: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px
+}
+
+.pro-pago-modal-label {
+	display: block;
+	margin-bottom: 0!important;
+	padding-top: 20px
+}
+
+.pro-pago-modal-vig-prog {
+	padding-left: 38px;
+	padding-right: 38px
+}
+
+.pro-pago-modal-vig-prog-bloque {
+	float: left;
+	width: 50%;
+	min-height: 50px;
+	padding-top: 0
+}
+
+.pro-pago-modal-vig-prog-check {
+	text-align: left
+}
+
+.pro-pago-modal-vig-prog-bloque-text {
+	width: 98%!important
+}
+
+.pro-pago-modal-vig-prog-bloque-check {
+	width: auto!important
+}
+
+.pro-pago-modal-txt-number {
+	color: #aaa9af;
+	border: 1px solid #aaa9af;
+	padding: 3px;
+	width: 50px
+}
+
+.dashboard-modal .table-td {
+	border: 1px solid #81a446;
+	color: #fff;
+	padding-left: 10px;
+	padding: 10px;
+	text-align: right
+}
+
+.flexslider {
+	margin-bottom: 10px
+}
+
+.flex-control-nav {
+	position: relative;
+	bottom: auto
+}
+
+.custom-navigation {
+	display: table;
+	width: 100%;
+	table-layout: fixed
+}
+
+.custom-navigation>* {
+	display: table-cell
+}
+
+.custom-navigation>a {
+	width: 50px
+}
+
+.custom-navigation .flex-next {
+	text-align: right
+}
+
+.flex-direction-nav .flex-prev {
+	display: none
+}
+
+@font-face {
+	font-family: flexslider-icon;
+	src: url(../fonts/slider/flexslider-icon.eot);
+	src: url(../fonts/slider/flexslider-icon.eot?#iefix) format('embedded-opentype'), url(../fonts/slider/flexslider-icon.woff) format('woff'), url(fonts/flexslider-icon.ttf) format('truetype'), url(../fonts/slider/flexslider-icon.svg#flexslider-icon) format('svg');
+	font-weight: 400;
+	font-style: normal
+}
+
+.flex-container a:hover,
+.flex-slider a:hover {
+	outline: 0
+}
+
+.flex-control-nav,
+.flex-direction-nav,
+.slides,
+.slides>li {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.flex-pauseplay span {
+	text-transform: capitalize
+}
+
+.flex-direction-nav .flex-next {
+	display: none
+}
+
+.flexslider {
+	margin: 0;
+	padding: 0
+}
+
+.flexslider .slides>li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+	text-align: center
+}
+
+.flexslider .slides img {
+	width: auto;
+	display: inline
+}
+
+.flexslider .slides:after {
+	content: "\0020";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0
+}
+
+html[xmlns] .flexslider .slides {
+	display: block
+}
+
+* html .flexslider .slides {
+	height: 1%
+}
+
+.no-js .flexslider .slides>li:first-child {
+	display: block
+}
+
+.flexslider {
+	margin: 0 auto;
+	position: relative;
+	text-align: center
+}
+
+.flexslider .slides {
+	zoom: 1
+}
+
+.flexslider .slides img {
+	height: auto;
+	-moz-user-select: none;
+	max-width: 100%
+}
+
+.flex-viewport {
+	max-height: 2000px
+}
+
+.loading .flex-viewport {
+	max-height: 300px
+}
+
+.carousel li {
+	margin-right: 5px
+}
+
+.flex-direction-nav a {
+	text-decoration: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: -20px 0 0;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	overflow: hidden;
+	opacity: 0;
+	cursor: pointer;
+	color: rgba(0, 0, 0, .8);
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, .3);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+
+.flex-direction-nav a:before {
+	font-family: flexslider-icon;
+	font-size: 40px;
+	display: inline-block;
+	content: '\f001';
+	color: rgba(0, 0, 0, .8);
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, .3)
+}
+
+.flex-direction-nav a.flex-next:before {
+	content: '\f002'
+}
+
+.flex-direction-nav .flex-prev {
+	left: -50px
+}
+
+.flex-direction-nav .flex-next {
+	right: -50px;
+	text-align: right
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev {
+	opacity: .7;
+	left: 10px
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+	opacity: 1
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+	opacity: .7;
+	right: 10px
+}
+
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+	opacity: 1
+}
+
+.flex-direction-nav .flex-disabled {
+	opacity: 0!important;
+	cursor: default;
+	z-index: -1
+}
+
+.flex-pauseplay a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	opacity: .8;
+	z-index: 10;
+	overflow: hidden;
+	cursor: pointer;
+	color: #000
+}
+
+.flex-pauseplay a:before {
+	font-family: flexslider-icon;
+	font-size: 20px;
+	display: inline-block;
+	content: '\f004'
+}
+
+.flex-pauseplay a:hover {
+	opacity: 1
+}
+
+.flex-pauseplay a.flex-play:before {
+	content: '\f003'
+}
+
+.flex-control-nav {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0
+}
+
+.flex-control-nav li {
+	margin: 0 6px;
+	display: inline-block;
+	zoom: 1
+}
+
+.flex-control-paging li a {
+	width: 11px;
+	height: 11px;
+	display: block;
+	background: #666;
+	background: rgba(0, 0, 0, .5);
+	cursor: pointer;
+	text-indent: -9999px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+	-o-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px
+}
+
+.flex-control-paging li a:hover {
+	background: #333;
+	background: rgba(0, 0, 0, .7)
+}
+
+.flex-control-paging li a.flex-active {
+	background: #000;
+	background: rgba(0, 0, 0, .9);
+	cursor: default
+}
+
+.flex-control-thumbs {
+	margin: 5px 0 0;
+	position: static;
+	overflow: hidden
+}
+
+.flex-control-thumbs li {
+	width: 25%;
+	float: left;
+	margin: 0
+}
+
+.flex-control-thumbs img {
+	height: auto;
+	display: block;
+	opacity: .7;
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease
+}
+
+.flex-control-thumbs img:hover {
+	opacity: 1
+}
+
+.flex-control-thumbs .flex-active {
+	opacity: 1;
+	cursor: default
+}
+
+@media screen and (max-width:860px) {
+	.flex-direction-nav .flex-prev {
+		opacity: 1;
+		left: 10px
+	}
+	.flex-direction-nav .flex-next {
+		opacity: 1;
+		right: 10px
+	}
+}
+
+@media (min-width :981px) {
+	.col-md-4 {
+		width: 26%;
+		padding-right: 0
+	}
+	.col-md-8 {
+		width: 74%
+	}
+	#cerrar-sesion-iconos .col-md-4 {
+		width: 33.33333%
+	}
+	.JEPVirtual-login-idiomas {
+		background: #267949 url(/recursosJep/images/JEPVirtual-idiomas-sombra.png) bottom center no-repeat;
+		height: 40px
+	}
+	.JEPVirtual-login-idiomas .contenidos {
+		width: 1024px;
+		text-align: right;
+		padding-top: 10px;
+		margin: 0 auto;
+		color: #fff
+	}
+	.JEPVirtual-login-marca {
+		background: url(/recursosJep/images/JEP-background-marca.jpg) repeat-x;
+		height: 85px;
+		padding: 20px
+	}
+	.JEPVirtual-login-marca .contenidos {
+		width: 1024px;
+		margin: 0 auto
+	}
+	.JEPVirtual-logo {
+		text-align: left
+	}
+	.JEPVirtual-mensaje {
+		text-align: right
+	}
+	.JEPVirtual-login-usuariocontrasena .usuario {
+		text-align: right;
+		padding-right: 40px
+	}
+	.JEPVirtual-login-usuariocontrasena .contrasena {
+		text-align: left
+	}
+	.JEPVirtual-login-mensaje {
+		width: 600px
+	}
+	.JEPVirtual-loginotp-frame {
+		width: 980px;
+		margin: 0 auto;
+		min-height: 460px
+	}
+	.JEPVirtual-loginotp-frame .dots {
+		background: url(/recursosJep/images/dots.svg) repeat-y right;
+		background-size: 17px 36px;
+		background-position: right
+	}
+	#creacion-usuario .form-control {
+		width: 300px
+	}
+	#creacion-usuario .contenidos {
+		width: 980px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		margin-top: 20px
+	}
+	.modal-dialog {
+		width: 500px
+	}
+	.modal-dialog-2 {
+		width: 300px
+	}
+	#JEP-dashboard .dashboard-usuario {
+		float: right
+	}
+	#JEP-dashboard .dashboard-usuario .nombre {
+		float: left
+	}
+	#JEP-dashboard .dashboard-usuario .herramientas {
+		float: left
+	}
+	#JEP-dashboard .dashboard-usuario span {
+		float: left
+	}
+	#JEP-dashboard .menu-content {
+		width: 1024px;
+		margin: 0 auto
+	}
+	#JEP-dashboard .container {
+		width: 1024px;
+		margin: 0 auto
+	}
+	#JEP-dashboard .col-md-8 {
+		float: right
+	}
+	#JEP-dashboard .col-md-4 {
+		padding-left: 0
+	}
+	#navbar-collapse .collapse {
+		display: inherit
+	}
+	#JEP-dashboard .dashboard .pc .graficas {
+		width: 50%;
+		float: left;
+		margin: 0;
+		min-height: 540px
+	}
+	#JEP-dashboard .dashboard .consulta-saldos .tabla-titulos {
+		padding-left: 17px;
+		padding-right: 17px
+	}
+	#JEP-dashboard .dashboard .consulta-saldos .graficas .datos1 {
+		float: left
+	}
+	#JEP-dashboard .dashboard .consulta-saldos .graficas .datos2 {
+		float: left;
+		padding-top: 30px
+	}
+	#JEP-dashboard .dashboard .consulta-saldos .graficas .datos3 {
+		float: left;
+		padding-top: 10px;
+		text-align: center;
+		width: inherit
+	}
+	#JEP-dashboard .dashboard .contenedor {
+		display: inline-block;
+		background: url(/recursosJep/images/dots-transferencias-externas.png) no-repeat top center
+	}
+	#JEP-dashboard .dashboard .contenedor-transferencia-externa {
+		display: inline-block;
+		background: url(/recursosJep/images/dots-transferencias-externas.png) no-repeat top center
+	}
+	#JEP-dashboard .dashboard .contenedor-impresion-comprobantes {
+		height: 510px
+	}
+	.table-responsive {
+		overflow: inherit
+	}
+	#JEP-dashboard .bloque1 {
+		width: 50%;
+		float: left;
+		padding-left: 10px;
+		padding-right: 0;
+		background: url(/recursosJep/images/dots.svg) right repeat-y;
+		background-size: 17px 36px;
+		margin-bottom: 30px
+	}
+	#JEP-dashboard .bloque2 {
+		width: 50%;
+		float: left;
+		min-height: 370px;
+		padding-left: 0
+	}
+	#JEP-dashboard .totales {
+		width: 25%;
+		vertical-align: middle;
+		text-align: center;
+		float: left;
+		margin-bottom: 10px
+	}
+	#JEP-dashboard .totales label {
+		color: #aad35b;
+		display: block;
+		font-weight: 700;
+		height: 35px
+	}
+	#JEP-dashboard .capa-botones-acciones-tabla {
+		min-height: 75px
+	}
+	#JEP-dashboard .dashboard .separador-botones {
+		height: 71px
+	}
+	#JEP-dashboard .dashboard .separador-botones-compra-tiempo-aire {
+		height: 140px
+	}
+	#JEP-dashboard .dashboard .textos-impresion-comprobantes .separador-textos {
+		height: 38px
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header {
+		width: 705px
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .logoJEP {
+		width: 50%;
+		float: left
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .datos {
+		width: 50%;
+		float: right;
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .fecha {
+		text-align: left;
+		float: left
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .no-comprobante {
+		text-align: right;
+		float: right
+	}
+	#JEP-dashboard .mantenimiento {
+		width: 320px!important
+	}
+	#JEP-dashboard .matenimiento-error {
+		width: 320px
+	}
+	#JEP-dashboard .matenimiento-info {
+		width: 320px
+	}
+	.manteniminto-dashboard-radio select {
+		width: 320px
+	}
+	#JEP-dashboard .transferencias-externas-separacion {
+		margin-top: 40px;
+		text-align: center
+	}
+	.consulta-paginacion {
+		width: 700px
+	}
+	.bloque1-transferencias {
+		width: 50%;
+		float: left;
+		padding-left: 10px;
+		padding-right: 0;
+		margin-bottom: 0;
+		min-height: 550px
+	}
+	#cerrar-sesion-iconos {
+		width: 980px;
+		margin: 0 auto
+	}
+	.consultas-contenedor .datos-socio {
+		padding-left: 53px
+	}
+	.consultas-contenedor .datos-socio .input-dato {
+		width: 93%!important
+	}
+	#JEP-dashboard .box .content .enlace {
+		color: #d7d8dc
+	}
+	.JEP-Empresas-OTP-botones-posicion {
+		width: 980px;
+		text-align: center;
+		margin: 0 auto
+	}
+	.JEP-Empresas-OTP-botones-posicion-alineacion {
+		padding-left: 10px;
+		padding-right: 10px;
+		display: inline-block;
+		padding-top: 20px
+	}
+	.width-input {
+		width: 65%!important
+	}
+	.pro-pago-fecha {
+		width: 75%;
+		margin-bottom: 20px
+	}
+	.pro-pago-capa-vigencia {
+		float: left;
+		width: 50%
+	}
+	.pro-pago-capa-vigencia .tl {
+		width: 95%!important;
+		margin-right: 20px!important
+	}
+	.pro-pago-capa-vigencia .fecha {
+		width: 100%!important
+	}
+}
+
+@media (min-width :768px) and (max-width:980px) {
+	.JEPVirtual-login-idiomas {
+		background: #267949 url(/recursosJep/images/JEPVirtual-idiomas-sombra.png) bottom center no-repeat;
+		height: 40px
+	}
+	.JEPVirtual-login-idiomas .contenidos {
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		margin: 0 auto;
+		color: #fff
+	}
+	.JEPVirtual-login-marca {
+		background: url(/recursosJep/images/JEP-background-marca.jpg) repeat-x;
+		height: 110px;
+		padding: 25px
+	}
+	.JEPVirtual-login-marca .contenidos {
+		width: 100%;
+		margin: 0 auto
+	}
+	.JEPVirtual-login-usuariocontrasena .usuario {
+		text-align: right;
+		padding-right: 40px
+	}
+	.JEPVirtual-login-usuariocontrasena .contrasena {
+		text-align: left
+	}
+	.JEPVirtual-login-mensaje {
+		width: 60%
+	}
+	.JEPVirtual-loginotp-frame {
+		min-height: 460px
+	}
+	#creacion-usuario .contenidos {
+		width: 100%
+	}
+	#creacion-usuario .form-control {
+		width: 300px
+	}
+	#creacion-usuario .sombra {
+		background-size: 100%
+	}
+	.modal-dialog-2 {
+		width: 300px
+	}
+	#JEP-dashboard .dashboard-usuario {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario .nombre {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario .herramientas {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario span {
+		width: 50%;
+		float: left;
+		text-align: center
+	}
+	#JEP-dashboard .mantenimiento {
+		width: 350px!important
+	}
+	#JEP-dashboard .matenimiento-error {
+		width: 350px
+	}
+	#JEP-dashboard .matenimiento-info {
+		width: 350px
+	}
+	.manteniminto-dashboard-radio select {
+		width: 320px
+	}
+	#JEP-dashboard .dashboard .textos-impresion-comprobantes .separador-textos {
+		height: 10px
+	}
+	#JEP-dashboard .dashboard .consulta-saldos .graficas {
+		width: 50%;
+		float: left;
+		padding-left: 20px;
+		background: url(/recursosJep/images/dots.svg) right repeat-y;
+		background-size: 17px 36px
+	}
+	.navbar-header {
+		float: none
+	}
+	.navbar-left,
+	.navbar-right {
+		float: none!important
+	}
+	.navbar-toggle {
+		display: block
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px
+	}
+	.navbar-collapse.collapse {
+		display: none!important
+	}
+	.navbar-nav {
+		float: none!important;
+		margin-top: 7.5px
+	}
+	.navbar-nav>li {
+		float: none
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px
+	}
+	.collapse.in {
+		display: block!important
+	}
+	#JEP-dashboard .totales {
+		margin-bottom: 20px;
+		text-align: center
+	}
+	#JEP-dashboard .capa-botones-acciones-tabla {
+		min-height: 60px
+	}
+	#JEP-dashboard .dashboard .separador-botones {
+		height: 20px
+	}
+	#JEP-dashboard .dashboard .separador-botones-compra-tiempo-aire {
+		height: 20px
+	}
+	#JEP-dashboard .transferencias-externas-separacion {
+		margin-top: 20px;
+		text-align: center
+	}
+	.consulta-paginacion {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 10px
+	}
+	#cerrar-sesion-iconos {
+		width: 100%;
+		margin: 0 auto
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header {
+		width: 100%
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .logoJEP {
+		width: 50%;
+		float: left
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .datos {
+		width: 50%;
+		float: right;
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+	.consultas-contenedor .datos-socio {
+		padding-left: 53px
+	}
+	.consultas-contenedor .datos-socio .input-dato {
+		width: 93%!important
+	}
+	.JEP-Empresas-OTP-botones-posicion {
+		width: 100%;
+		text-align: center
+	}
+	.JEP-Empresas-OTP-botones-posicion-alineacion {
+		padding-top: 10px
+	}
+	.width-input {
+		width: 90%!important
+	}
+	.pro-pago-fecha {
+		width: 75%
+	}
+	.pro-pago-capa-vigencia {
+		float: left;
+		width: 50%
+	}
+	.pro-pago-capa-vigencia .tl {
+		width: 95%!important
+	}
+	.pro-pago-capa-vigencia .fecha {
+		width: 95%!important
+	}
+}
+
+@media (min-width :380px) and (max-width:767px) {
+	.JEPVirtual-login-idiomas {
+		background: #267949 url(/recursosJep/images/JEPVirtual-idiomas-sombra.png) bottom center no-repeat;
+		height: 40px
+	}
+	.JEPVirtual-login-idiomas .contenidos {
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		margin: 0 auto;
+		color: #fff
+	}
+	.JEPVirtual-login-marca {
+		background: url(/recursosJep/images/JEP-background-marca.jpg) repeat-x;
+		min-height: 190px;
+		padding-top: 20px;
+		padding-bottom: 10px
+	}
+	.JEPVirtual-login-marca .contenidos {
+		width: 100%;
+		margin: 0 auto
+	}
+	.col-sm-6 {
+		text-align: center;
+		padding-bottom: 20px
+	}
+	.creacion-usuario .cancelar {
+		margin: 20px auto
+	}
+	.JEPVirtual-login-usuariocontrasena .usuario {
+		text-align: center
+	}
+	.JEPVirtual-login-usuariocontrasena .contrasena {
+		text-align: center
+	}
+	.JEPVirtual-login-usuariocontrasena .col-sm-6 {
+		padding-bottom: 1px
+	}
+	.JEPVirtual-login-sombra2 {
+		margin-top: 15px
+	}
+	.JEPVirtual-login-box-advertencia,
+	.JEPVirtual-login-mensaje {
+		width: 80%
+	}
+	.JEPVirtual-login-img img {
+		max-width: 100%
+	}
+	.JEPVirtual-login-sombra1 {
+		background-size: 100%
+	}
+	.JEPVirtual-login-sombra2 {
+		background-size: 100%
+	}
+	.JEPVirtual-login-idiomas {
+		background-size: 100%
+	}
+	.JPEVirtual-loginotp-teclado-tecla,
+	.JPEVirtual-loginotp-teclado-tecla-ultima {
+		padding-left: 0
+	}
+	.JPEVirtual-loginotp-teclado-tecla-centrada {
+		padding-left: 0
+	}
+	.JEPVirtual-login-cabecera-sombra {
+		background-size: 100%
+	}
+	#creacion-usuario .contenidos {
+		width: 100%
+	}
+	#creacion-usuario .form-control {
+		width: 80%
+	}
+	#creacion-usuario .JEPVirtual-login-sombra2 {
+		margin-top: 0
+	}
+	#creacion-usuario .sombra {
+		background-size: 100%
+	}
+	.creacion-usuario .separador40 {
+		height: 10px
+	}
+	.creacion-clave .JPEVirtual-loginotp-teclado-tecla,
+	.creacion-clave .JPEVirtual-loginotp-teclado-tecla-ultima {
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario .nombre {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario .herramientas {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario span {
+		width: 50%;
+		float: left;
+		text-align: center;
+		margin-top: 20px
+	}
+	#JEP-dashboard .navbar-fixed-bottom,
+	.navbar-fixed-top {
+		position: relative
+	}
+	#JEP-dashboard .dashboard .pc .graficas {
+		width: 100%;
+		text-align: center
+	}
+	#JEP-dashboard .totales {
+		margin-bottom: 20px;
+		text-align: center
+	}
+	#JEP-dashboard .capa-botones-acciones-tabla {
+		min-height: 60px
+	}
+	#JEP-dashboard .dashboard .separador-botones {
+		height: 20px
+	}
+	#JEP-dashboard .dashboard .separador-botones-compra-tiempo-aire {
+		height: 20px
+	}
+	#JEP-dashboard .transferencias-externas-separacion {
+		margin-top: 20px;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard .textos-impresion-comprobantes .separador-textos {
+		height: 10px
+	}
+	#JEP-dashboard .mantenimiento {
+		width: 100%!important
+	}
+	#JEP-dashboard .matenimiento-error {
+		width: 100%
+	}
+	#JEP-dashboard .matenimiento-info {
+		width: 100%
+	}
+	.manteniminto-dashboard-radio select {
+		width: 100%
+	}
+	.consulta-paginacion {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 10px
+	}
+	#cerrar-sesion-iconos {
+		width: 100%;
+		margin: 0 auto
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header {
+		width: 100%
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .logoJEP {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .datos {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.consultas-contenedor .datos-socio {
+		padding-left: 0
+	}
+	.consultas-contenedor .datos-socio .input-dato {
+		width: 100%!important
+	}
+	.JEP-Empresas-OTP-botones-posicion {
+		width: 100%;
+		text-align: center
+	}
+	.JEP-Empresas-OTP-botones-posicion-alineacion {
+		padding-top: 10px
+	}
+	.width-input {
+		width: 90%!important
+	}
+}
+
+@media (max-width :379px) {
+	.JEPVirtual-login-idiomas {
+		background: #267949 url(/recursosJep/images/JEPVirtual-idiomas-sombra.png) bottom center no-repeat;
+		height: 40px
+	}
+	.JEPVirtual-login-idiomas .contenidos {
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		margin: 0 auto;
+		color: #fff
+	}
+	.JEPVirtual-login-marca {
+		background: url(/recursosJep/images/JEP-background-marca.jpg) repeat-x;
+		min-height: 190px;
+		padding-top: 20px;
+		padding-bottom: 10px
+	}
+	.JEPVirtual-login-marca .contenidos {
+		width: 100%;
+		margin: 0 auto
+	}
+	.col-sm-6 {
+		text-align: center;
+		padding-bottom: 20px
+	}
+	.JEPVirtual-login-usuariocontrasena .usuario {
+		text-align: center
+	}
+	.JEPVirtual-login-usuariocontrasena .contrasena {
+		text-align: center
+	}
+	.JEPVirtual-login-usuariocontrasena .col-sm-6 {
+		padding: 1px
+	}
+	.JEPVirtual-login-sombra2 {
+		margin-top: 15px
+	}
+	.JEPVirtual-login-box-advertencia,
+	.JEPVirtual-login-mensaje {
+		width: 80%
+	}
+	.JEPVirtual-login-img img {
+		max-width: 100%
+	}
+	.JEPVirtual-login-sombra1 {
+		background-size: 100%
+	}
+	.JEPVirtual-login-sombra2 {
+		background-size: 100%
+	}
+	.JEPVirtual-login-idiomas {
+		background-size: 100%
+	}
+	.JEPVirtual-login-cabecera-sombra {
+		background-size: 100%
+	}
+	.JPEVirtual-loginotp-teclado-tecla,
+	.JPEVirtual-loginotp-teclado-tecla-ultima {
+		padding-left: 0
+	}
+	.JPEVirtual-loginotp-teclado-tecla-centrada {
+		padding-left: 0
+	}
+	#creacion-usuario .contenidos {
+		width: 100%
+	}
+	#creacion-usuario .form-control {
+		width: 80%
+	}
+	#creacion-usuario .JEPVirtual-login-sombra2 {
+		margin-top: 0
+	}
+	#creacion-usuario .sombra {
+		background-size: 100%
+	}
+	.creacion-usuario .cancelar {
+		margin: 20px auto
+	}
+	.creacion-usuario .nav-tabs {
+		display: inline-flex!important
+	}
+	.creacion-usuario .separador40 {
+		height: 10px
+	}
+	.creacion-clave .JPEVirtual-loginotp-teclado-tecla,
+	.creacion-clave .JPEVirtual-loginotp-teclado-tecla-ultima {
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario .nombre {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario .herramientas {
+		float: none;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard-usuario span {
+		width: 50%;
+		float: left;
+		text-align: center;
+		margin-top: 20px
+	}
+	#JEP-dashboard .dashboard .pc .graficas {
+		width: 100%;
+		text-align: center
+	}
+	#JEP-dashboard .mantenimiento {
+		width: 100%!important
+	}
+	#JEP-dashboard .matenimiento-error {
+		width: 100%
+	}
+	#JEP-dashboard .matenimiento-info {
+		width: 100%
+	}
+	.manteniminto-dashboard-radio select {
+		width: 100%
+	}
+	#JEP-dashboard .totales {
+		margin-bottom: 20px;
+		text-align: center
+	}
+	#JEP-dashboard .capa-botones-acciones-tabla {
+		min-height: 60px
+	}
+	#JEP-dashboard .dashboard .separador-botones {
+		height: 20px
+	}
+	#JEP-dashboard .dashboard .separador-botones-compra-tiempo-aire {
+		height: 20px
+	}
+	#JEP-dashboard .transferencias-externas-separacion {
+		margin-top: 20px;
+		text-align: center
+	}
+	#JEP-dashboard .dashboard .textos-impresion-comprobantes .separador-textos {
+		height: 10px
+	}
+	.consulta-paginacion {
+		width: 100%;
+		margin: 0
+	}
+	#cerrar-sesion-iconos {
+		width: 100%;
+		margin: 0 auto
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header {
+		width: 100%
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .logoJEP {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	#JEP-dashboard .dashboard .impresion-comprobante .impresion-comprobantes-header .datos {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.consultas-contenedor .datos-socio {
+		padding-left: 0
+	}
+	.consultas-contenedor .datos-socio .input-dato {
+		width: 100%!important
+	}
+	#JEP-dashboard .dashboard select {
+		width: 100%
+	}
+	#JEP-dashboard .dashboard .sl {
+		width: 100%
+	}
+	#JEP-dashboard .dashboard .error-1columna {
+		width: 100%;
+		text-align: center
+	}
+	.JEP-Empresas-OTP-botones-posicion {
+		width: 100%;
+		text-align: center
+	}
+	.JEP-Empresas-OTP-botones-posicion-alineacion {
+		padding-top: 10px
+	}
+	.width-input {
+		width: 90%!important
+	}
+	.pro-pago-fecha {
+		width: 75%;
+		margin-bottom: 20px
+	}
+	.pro-pago-capa-vigencia {
+		width: 100%;
+		display: block
+	}
+	.pro-pago-capa-vigencia .tl {
+		width: 100%!important
+	}
+	.pro-pago-capa-vigencia .fecha {
+		width: 100%!important
+	}
+}
+
+.nuevo-contenedor-principal .reporte {
+	padding-left: 50px
+}
+
+.nuevaVistaReporte tr {
+	border-bottom: 1px solid #868585;
+	height: 40px;
+	white-space: nowrap
+}
+
+.nuevaVistaReporte a {
+	color: #fff;
+	text-decoration: none!important
+}
+
+.titulo {
+	font-size: 16pt
+}
+
+.verde {
+	color: #a9d25b
+}
+
+.naranja {
+	color: #db9c2e
+}
+
+.gris {
+	color: #c4c4c4
+}
+
+.fila-separador {
+	margin: 35px 0 35px 20px
+}
+
+.nota-pie-pagina {
+	font-size: 12pt;
+	font-weight: 700;
+	color: #a9d25b
+}
+
+.instrucciones-nota {
+	color: #d4d5d9;
+	font-size: 12pt
+}
+
+.ancho-grafica {
+	width: 220px
+}
+
+.cuenta-saldo {
+	text-align: right
+}
+
+.bold {
+	font-weight: 800
+}
+
+.text-white {
+	color: #fff
+}
+
+.text-verde {
+	color: #789b47
+}
+
+.text-gris {
+	color: #a9a8ae
+}
+
+.bg-c-gris {
+	background-color: #585857
+}
+
+.separador15 {
+	margin: 15px auto
+}
+
+.centrar {
+	margin: 0 auto
+}
+
+.no-border {
+	border: unset!important
+}
+
+.no-margin {
+	margin: 0
+}
+
+.scroll-x {
+	overflow-x: scroll
+}
+
+.separador20 {
+	height: 20px
+}
+
+.separador40 {
+	height: 40px
+}
+
+.input-password {
+	font-size: 16px
+}
+
+ul.obligatorio {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0
+}
+
+li.itm-obligatorio {
+	padding-left: 1em;
+	text-indent: -1em
+}
+
+li.itm-obligatorio:before {
+	content: "*";
+	padding-right: 5px
+}
+
+.ver-pwd-icon {
+	cursor: pointer;
+	float: right;
+	margin-top: -29px;
+	right: 12px;
+	position: relative;
+	z-index: 2;
+	color: gray;
+	font-size: 20px
+}
+
+.creacion-password .ver-pwd-icon {
+	margin-top: -24px
+}
+
+.JEPVirtual-login-cuadro-tuto {
+	max-width: 330px;
+	margin: 0 auto;
+	color: #db902e;
+	text-align: center;
+	border: 1px solid #585857;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.JEPVirtual-login-cuadro-tuto a {
+	color: #db902e;
+	text-decoration: none
+}
+
+.JEPVirtual-login-box-advertencia .icn-advertencia,
+.JEPVirtual-login-cuadro-tuto img.JEPVirtual-login-icn {
+	width: 26px
+}
+
+.JEPVirtual-login-cuadro-tuto img.JEPVirtual-login-icn {
+	margin-right: 15px
+}
+
+.JEPVirtual-login-cuadro-tuto .txt-tutoriales {
+	font-size: 17px;
+	vertical-align: middle
+}
+
+.JEPVirtual-login-box-advertencia {
+	text-align: center;
+	margin: 0 auto
+}
+
+.JEPVirtual-login-box-advertencia .txt-advertencia {
+	color: #789b47
+}
+
+.JEPVirtual-login-usuario-nuevo {
+	max-width: 330px;
+	margin: 0 auto;
+	color: #000;
+	text-align: center;
+	border: 0 solid #585857;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #95b23f;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 700
+}
+
+.JEPVirtual-login-usuario-nuevo a {
+	color: #000
+}
+
+.creacion-usuario .nav-tabs>li>a {
+	margin-right: 15px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	color: #9a9a9a;
+	background-color: #4b454d
+}
+
+.creacion-usuario h3,
+.creacion-usuario h4 {
+	margin: 0
+}
+
+.creacion-usuario .nav-tabs {
+	border-bottom: 1px solid #6f6e6e;
+	display: flex;
+	justify-content: center!important
+}
+
+.creacion-usuario .nav-tabs>li {
+	margin-bottom: 0
+}
+
+.creacion-usuario .nav-tabs>li.active>a,
+.creacion-usuario .nav-tabs>li.active>a:focus,
+.creacion-usuario .nav-tabs>li.active>a:hover {
+	color: #fff!important;
+	cursor: default;
+	background-color: #67a96a;
+	border-color: #67a96a!important
+}
+
+.creacion-usuario .JEPVirtual-add-user-parrafo {
+	margin: 0 auto;
+	float: unset
+}
+
+.creacion-usuario .btn-confirmar {
+	color: #db902e
+}
+
+.creacion-usuario .btn-confirmar:hover {
+	color: #fff
+}
+
+.creacion-password .form-horizontal .control-label {
+	text-align: left
+}
+
+.creacion-password .form-group {
+	display: inline-block;
+	margin: 8px auto;
+	width: 100%
+}
+
+.creacion-password .col-md-8 {
+	padding: 0;
+	padding-left: 15px
+}
+
+.creacion-password .col-md-4 {
+	padding: 0
+}
+
+.input-generacion {
+	width: 200px;
+	margin: 0 auto
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+	background-color: #292c32;
+	opacity: 1
+}
+
+.cuadro-informacion {
+	width: 270px;
+	background: #000;
+	padding: 40px;
+	border-radius: 15px;
+	margin: 10% auto;
+	border: 1px solid grey
+}
+
+.cuadro-informacion p {
+	padding-top: 15px;
+	color: grey;
+	font-size: 15pt;
+	font-weight: 900
+}
+
+.titulo-codigo {
+	margin-bottom: 15px
+}
+
+.img-advertencia {
+	width: 65px;
+	margin-left: -35px;
+	margin-top: -50px;
+	z-index: 3
+}
+
+.dialogo-info .modal-dialog {
+	background: #222221;
+	padding: 0;
+	width: fit-content;
+	margin: 10% auto
+}
+
+.dialogo-info .modal-header {
+	text-align: center;
+	padding: 0
+}
+
+.dialogo-info .modal-content {
+	background-color: #222221;
+	color: #fff;
+	box-shadow: unset;
+	border: 1px solid #858585
+}
+
+.modal-body {
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center
+}
+
+#mFavoritosContent .ui-accordion-header {
+	background: #e6ad19 url(/recursosJep/images/favoritos-h4.png) no-repeat left top;
+	font-weight: 900;
+	color: #fff;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	border-left: none;
+	margin-bottom: 0;
+	margin-top: 10px;
+	letter-spacing: .8px;
+	height: 40px;
+	font-size: 18px
+}
+
+#mFavoritosContent>div.ui-accordion-header::after {
+	content: '+';
+	text-align: center;
+	width: 15px;
+	right: 10px;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	position: absolute
+}
+
+#mFavoritosContent>div.ui-accordion-header.ui-state-active::after {
+	content: '\2013'
+}
+
+#JEP-dashboard .box .mfavorito-item {
+	background: #000;
+	border-left: none;
+	text-align: left;
+	color: #e6ad19;
+	border-bottom: 1px solid #5b5b61;
+	padding-top: 10px;
+	padding-left: 10px;
+	min-height: 40px;
+	max-height: 100px;
+	border-left: 3px solid #841f1c;
+	letter-spacing: .8px;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: 900
+}
+
+#JEP-dashboard .box .mfavorito-item a {
+	color: #e6ad19!important
+}
+
+#mFavoritosContent .mfavorito-item a:hover,
+#mFavoritosContent .mfavorito-item:hover {
+	background: #292c32
+}
+
+#mFavoritosContent.ui-accordion .ui-accordion-content {
+	padding: 0;
+	border-top: 0;
+	margin-top: -2px;
+	position: relative;
+	top: 1px;
+	margin-bottom: 2px;
+	overflow: auto;
+	zoom: 1
+}
+
+#mFavoritosContent.ui-accordion .ui-accordion-content a:link {
+	text-decoration: none;
+	color: #fff
+}
+
+.consultas-h4,
+.favoritos-h4,
+.pagos-h4,
+.transferencia-h4 {
+	margin-top: 0
+}
+
+#JEP-dashboard .box .favoritos .opcion-favorito-nuevo a {
+	display: inline-block;
+}
+
+.nuevo-producto-favorito {
+	margin-top: 2px;
+	border-radius: 4px;
+	float: right;
+	width: 45px;
+	height: auto;
+	margin-right: 8px;
+}
+
+.nuevo-producto-favoritomin{
+    margin-top:2px;
+    border-radius:4px;
+    float:right;
+    width:65px;
+    height:auto;
+    margin-right:25px;
+}
+
+.nuevo-producto-min{
+    margin-top:5px; 
+    border-radius: 4px;
+    float:right;
+    width:40px;
+    height:auto;
+    margin-right:0px;
+}
+
+.tarjetaaprobadatexto {
+    position: relative;
+    box-shadow: none;
+    border: none;
+    background: none;
+    text-align: center;
+    display: table;
+    font-size: 20px;
+    color: #000;
+    font-weight: 900;
+    padding-top: 90px;
+    margin: 0 auto;
+}
+
+.tarjetaaprobadaboton {
+    background: #007934;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    border: 0px; 
+    font-size: 17px; 
+    width: 150px;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    margin-top:15px;
+}
+
+
+.pagoprogramado .contenedor {height: auto;}
+.pagoprogramado .pagoprogamado-menu{color: #ffffff; text-align: center; width: 100%;}
+.pagoprogramado .pagoprogamado-menu .opciones{text-align: center; text-transform: uppercase; padding-top: 10px; padding-bottom: 10px; min-height: 45px; 
+background: #191b1e; font-weight: bold;}  
+
+.pagoprogramado  .pagoprogamado-menu .active{border-bottom: 2px solid #e6ad16}
+.pagoprogramado .bloque1-transferencias{min-height: 0px}
+.pagoprogramado .botones{text-align: center; padding: 10px;}
+#JEP-dashboard .pagoprogramado .bloque2{min-height: 0px;}
+.pagoprogramado .botones .botonfavoritos{background: #383838 !important}
+.pagoprogramado .pago{text-align: left; padding-left: 54px; margin-top: 30px;}
+.pagoprogramado .pago select{width: 90% !important}
+.pagoprogramado .pago h3{margin-bottom: 20px; margin-top: 20px; padding: 10px; background: #2a2d33; text-align: center; color: #ffffff !important; width: 90%}
+
+.pagoprogramado .pago .control-indefinido{margin: 0 auto; text-align: center; width: 90%; margin-right: 70px;}
+.pagoprogramado-pago-label{text-align: left; float: left; padding-left: 13px;}
+.pagoprogramado-pago-label2{padding-left: 67px; float: left; padding-top: 20px;}
+.pagoprogramado-pago-input{width: 81% !important}
+.pagoprogramado-pago-bases{text-align: center; color: #c6c6c6 !important; display: block; text-decoration: underline; padding-bottom: 20px}
+.pagoprogramado-pago-bases a{color: #ffffff;}
+ /* The switch - the box around the slider */
+
+ .pagoprogramado .confirmacion {margin-top: 70px; margin-left: 40px; text-align: left}
+ .pagoprogramado .confirmacion label{float: left;}
+ .pagoprogramado .confirmacion .col-md-6{padding-left: 5px;}
+ 
+ .pagoprogramado  .modal-dialog{background: #2b2e33; box-shadow: none; margin-top: 100px}
+ .pagoprogramado .modal-content {background: #2b2e33; color: #ffffff; text-align: center; font-size: 19px; box-shadow: none; border: 0px;}
+ .pagoprogramado .modal-content h4{color: #f8ac1b; text-align: center; display: block; font-size: 22px;}
+ .pagoprogramado .modal-content input{text-align: center; background: #171818; color: #87a728; border: 1px solid #ffffff; border-radius: 10px; 
+    padding-top: 2px; padding-bottom: 2px; width: 200px; margin-top: 20px; margin-bottom: 20px;}
+.pagoprogramado .modal-content .control{text-align: center; display: flex; justify-content:center; margin-top: 10px;}
+.pagoprogramado .table-responsive{display: block; min-height: 100px; margin-bottom: 20px}
+.pagoprogramado .table-responsive a{color: #f59d1b !important}
+.pagoprogramado-pagoservicios-check{margin:  0 auto; text-align: center; display: table}
+.pagoprogramado-pagoservicios-check label{width: 100%; margin: 0 auto}
+.pagoprogramado-pagoservicios-check .slider{left: 150px;}
+.pagoprogramado .filatotales{background: #5b5c62; border: 0px; font-weight: bold;}
+.pagoprogramado .filatotales-valores{background: #71a83a; font-weight: bold; }
+.pagoprogramado .table-responsive input[type=checkbox]{border: 0px; border-radius: 2px;}
+.pagoprogramado .impresion-comprobante {padding-left: 20px; padding-right: 20px;}
+.pagoprogramado .impresion-comprobante h2{text-align: center; margin-top: 0px; font-size: 20px; margin-bottom: 0px}
+.pagoprogramado .iconos{text-align: center !important}
+.pagoprogramado .separadorpago{height: 30px;}
+.pagoprogramado .transaccionexitosa{text-align: center; color: #71a83a; font-size: 15px; font-weight: 900;}
+.pagoprogramado .botonprogramar{text-align: center}
+.pagoprogramado .botonprogramar a{padding-top: 10px; padding-bottom: 10px; background: #e6ad16; text-align: center; color: #000000 !important;
+border-radius: 20px; padding-left: 20px; padding-right: 20px; font-weight: bold;}
+
+ /*   .dtHorizontalExampleWrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        }
+        #dtHorizontalExample th, td {
+        white-space: nowrap;
+        }
+        
+        table.dataTable thead .sorting:after,
+        table.dataTable thead .sorting:before,
+        table.dataTable thead .sorting_asc:after,
+        table.dataTable thead .sorting_asc:before,
+        table.dataTable thead .sorting_asc_disabled:after,
+        table.dataTable thead .sorting_asc_disabled:before,
+        table.dataTable thead .sorting_desc:after,
+        table.dataTable thead .sorting_desc:before,
+        table.dataTable thead .sorting_desc_disabled:after,
+        table.dataTable thead .sorting_desc_disabled:before {
+        bottom: .5em;
+        }*/
+
+
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 auto;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 80px;
+    right: 0;
+    bottom: 0;
+    background-color: #2a2d33;
+    -webkit-transition: .4s;
+    transition: .4s;
+    height: 25px;
+    width: 50px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #71a83a;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #71a83a;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  
+body .ui-inputswitch {
+    height: 30px !important;
+    width: 50px !important;
+    overflow: visible !important;
+    background: #2a578400 !important;
+    border-radius: 20px !important;
+    border-style: solid !important;
+    border-color: #ffffff !important;
+    border-width: thin !important;
+}
+
+.ui-inputswitch .ui-inputswitch-handle { 
+    top: 1px;
+    left: -2px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #dee2e6;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    width: 25px !important;
+    height: 25px !important;
+} 
+  
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+
+@media (min-width: 981px){
+   
+    .pagoprogramado  .pagoprogamado-menu .col-md-4{width: 33.3333%}
+    .pagoprogramado .pago{margin-top: 70px;}
+    .pagoprogramado .confirmacion .col-md-6{padding-left: 50px;}
+    .pagoprogramado-confirmacion-label2{padding-left: 35px !important;}
+ .pagoprogramado-confirmacion-label3{padding-left: 35px !important;}
+
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0px !important;
+}
